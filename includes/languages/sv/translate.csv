@@ -1,0 +1,319 @@
+"""City"" is a required value. Please enter the city.",Postort är ett obligatoriskt fält.  Var god ange din Postort.
+"""Country"" is a required value. Please enter the country.",Land är ett obligatoriskt fält. Var god ange din Land.
+"""Email Address"" is a required value. Please enter the email address.",E-postadress är ett obligatoriskt fält. Var god ange din E-postadress.
+"""Email Address"" is not a valid email address.",Vänligen ange en giltig e-postadress.
+"""First Name"" is a required value. Please enter the first name.",Förnamn är ett obligatoriskt fält. Var god ange ditt Förnamn.
+"""Last Name"" is a required value. Please enter the last name.",Efternamn är ett obligatoriskt fält. Var god ange din Efternamn.
+"""Nickname"" is a required value. Please enter the nickname.",användarnamn är ett obligatoriskt fält. Var god ange din användarnamn.
+"""Payment Method"" is a required value.",Betalningsmetod är ett obligatoriskt fält.
+"""Rating"" is a required value. Please select rating.",Betyg är ett obligatoriskt fält. Var god ange din Betyg.
+"""Review"" is a required value. Please enter review.",Recension är ett obligatoriskt fält. Var god ange din Recension.
+"""Shipping Method"" is a required value.",Leveransmetod är ett obligatoriskt fält.
+"""State/Province"" is a required value. Please enter the state/province.",Stat / Provins är ett obligatoriskt fält. Var god ange din Stat / Provins.
+"""Street Address"" is a required value. Please enter the street address.",Gatuadress är ett obligatoriskt fält. Var god ange din Gatuadress.
+"""Telephone"" is a required value. Please enter the telephone.",Telefon är ett obligatoriskt fält. Var god ange din Telefon.
+"""Zip/Postal Code"" is a required value. Please enter the zip/postal code.",ZIP/Postnummer är ett obligatoriskt fält. Var god ange din ZIP/Postnummer.
+"%s offers excellent, comprehensive customer service every step of the way. Before you order, make real time inquiries through use of our live chat. Once you've made a purchase, our customer service representatives are always on-hand to answer questions through our live chat. Shop with confidence and save with %s!",%s erbjuder fantastisk och omfattande kundservice genom hela köpprocessen. Innan du beställer kan du ställa frågor i vår live chat och få svar i realtid. Efter att du slutfört ditt köp finns våra kundservicerepresentanter alltid till hands för att svara på dina frågor genom det lättanvända Kundärende-systemet på vår webbsida. Handla utan bekymmer och spara pengar med %s!
+"<a onclick=""history.go(-1); return false;"" href=""#"">Go back</a> to the previous page.","<a onclick=""history.go(-1); return false;"" href=""#"">Gå tillbaka</a> till föregående sida."
+A variety of expedited shipping methods mean there is a convenient delivery option for every budget.,En mängd expedierade leveransmetoder innebär att det är ett bekvämt leveransalternativ för varje budget.
+About Us,Om oss
+Account Dashboard,Mitt Konto
+Account Information,kontoinformation
+Add New Address,Lägg till ny adress
+Add to Cart,Lägg till i  Varukorg
+Add to Compare,Lägg till Jämför
+Add to Wishlist,Lägg till önskelista
+Additional Address,Ytterligare adress
+Address Book,Adressbok
+All Products,Alla Produkt
+Apply Coupon,Lös in Kuponger
+Are you sure you want to delete this address?,Är du säker på att du vill ta bort den här adressen?
+Availability,Tillgänglighet
+Back,Tillbaka
+Back to Main Product Info,Tillbaka till produktsidan
+Back to My Orders,Tillbaka till Mina Orders
+Bad,Dålig
+Bestsellers,Bästsäljare
+Billing Address,Fakturaadress
+Billing Information,Fakturainformation
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.","Genom att skapa ett konto med vårt lager, kommer du att kunna gå igenom betalningsprocessen snabbare, lagra flera leveransadresser, granska och spåra dina beställningar på ditt konto och mer."
+Cancel,Avbryt
+Cancel Coupon,Avbryt Kuponger
+Cart Subtotal,Totalsumma
+Categories,Kategorier
+Categories Sitemap,Kategorier Sidkarta
+Category,Kategori
+Change Billing Address,Ändra Fakturaadress
+Change Password,Ändra lösenord
+Change Shipping Address,Ändra leveransadress
+Checkout,kassan
+Checkout Result,kassan Resultat
+City,Postort
+Class,Kategori
+Clear All,Rensa alla
+Clear Shopping Cart,Töm kundvagn
+"Click <a href=""%s"">here</a> to continue shopping.","<a href=""%s"">Klicka här</a> för Fortsätt shoppa"
+Color,Färg
+Company,Företag
+Company Info,Företagsinformation
+Confirm New Password,Bekräfta Nytt lösenord
+Confirm Password,Bekräfta lösenord 
+Contact Information,Kundtjänst
+Contact Us,Kontakta Oss
+Continue Shopping,Fortsätt handla
+Convenient & Friendly Customer Service,Bekväm och vänlig Kundservice
+Country,Land
+Coupon (<span>%s</span>),Kuponger (<span>%s</span>)
+"Coupon code ""%s"" is not valid.","Kupongkod ""%s"" är inte giltig."
+"Coupon code ""%s"" was applied.","Kupongkod ""%s"" tillämpades."
+Coupon code was canceled.,Kupongkod avbröts.
+Coupon Codes,kupongkoder
+Create Account,skapar konto
+Create an Account,skapar konto
+Create New Customer Account,skapar nytt konto
+Current Password,Befintligt lösenord
+Currently Shopping by,Handlar för närvarande utifrån
+Customer Login,Kundinloggning
+Customer Reviews,kundrecensioner
+Customer Service,Kundservice
+Date,Datum
+Date Added: New to Old,Inkom datum: Nytt till gammalt
+Date Added: Old to New,Inkom datum: gammalt till Nytt
+Default,Förvalt
+Default Addresses,Förvalt adress
+Default Billing Address,Förvalt Fakturaadress
+Default Shipping Address,Förvalt leveransadress
+Delete Address,Ta bort adress
+Delivery,leverans
+Description,beskrivning
+Details,Detaljer
+Discount,rabatt
+Easy & Safe Online Shopping,Enkel & säker online shopping
+Edit,Ändra
+Edit Address,Ändra adress
+Email Address,E-postadress
+Enter your coupon code if you have one.,Har du en kupongkod? Lös in den här
+"Every %s product undergoes an extensive testing and quality control procedure, ensuring each and every item purchased meets global quality standards. %s offers only the highest quality products, allowing customers to shop with confidence.","Alla produkter på %s genomgår omfattande tester och kvalitetskontroller för att försäkra att varje vara som köps möter globala kvalitetstandarder. LightInTheBox.com erbjuder endast de mest högkvalitativa produkterna, så att kunderna kan känna sig säkra när de shoppar. "
+Failure,misslyckande
+Faq,Frågor & Svar
+Fast Delivery Around The Globe,Snabb leverans - jorden runt
+Fax,Fax
+Featured,Utvalda
+Finish,Mål
+First Name,Förnamn
+Follow these links to get you back on track!,Följ dessa länkar för att få dig tillbaka på rätt spår!
+Forgot Your Password?,Glömt ditt lösenord? 
+From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.,Från din Mitt konto Dashboard har du möjlighet att visa en ögonblicksbild av dina senaste kontoaktivitet och uppdatera din kontoinformation. Välj en länk nedan för att visa eller redigera information.
+Gender,Kön
+General Subscription,Allmänt Prenumerations
+Good,Bra
+Gorgeous,Jättebra
+Grand Total,Totalt
+Grid,Galleri
+"Have no fear, help is near! There are many ways you can get back on track with Our Store.","Var inte rädd, hjälpen är nära! Det finns många sätt du kan få tillbaka på rätt spår med vårt lager."
+"Hello, %s!","Hallå, %s!"
+High Quality With Global Standards,Hög kvalitet med global standard
+Home,Hem
+"If you clicked on a link to get here, the link is outdated.","Om du klickade på en länk för att komma hit, är länken föråldrad."
+"If you have an account with us, please log in.","Om du har ett konto hos oss, vänligen logga in"
+"If you typed the URL directly, please make sure the spelling is correct.","Om du skriver in webbadressen direkt, se till att stavningen är korrekt."
+In stock,I lager
+Information,Information
+Invalid login or password.,Inloggning misslyckades
+Item(s),artikla(r)
+Items <span>%s</span> to <span>%s</span> of <span>%s</span> total,artiklar <span>%s</span> till <span>%s</span> av <span>%s</span> Totalt
+JavaScript seem to be disabled in your browser.,JavaScript verkar vara inaktiverat i din webbläsare.
+Last Name,Efternamn
+List,Lista
+Log In,Logga in
+Log Out,Logga ut
+Login,Logga in
+Login or Create an Account,Logga in eller Skapa ett konto
+Manage Addresses,Hantera Adressbok
+Material,Material
+More Views,fler visningar
+My Account,Mitt Konto
+My Cart,Mitt Kundvagn
+My Cart (<span>%s</span> Items),Mitt Kundvagn (<span>%s</span> artiklar)
+My Dashboard,Mitt Konto
+My Orders,Mina Orders
+My Product Reviews,Mitt Produkt recensionerna
+My Recent Reviews,Mitt Senaste recensionerna
+Name,Namn
+Name: A to Z,Namn: A till Z
+Name: Z to A,Namn: Z till A
+New Address,Ny adress
+New Arrivals,Nyinkomna
+New Customers,ny kund
+New Password,Nytt lösenord
+New Products,Nytt Produkter
+News,Nyheter
+Newsletter Subscriptions,Prenumerera på vårt nyhetsbrev
+Newsletters,nyhetsbrev
+Next,Nästa
+Nickname,användarnamn
+Not Available At This Time,Inte tillgänglig just nu
+Num,Num
+Order #,Order #
+Order #%s - %s,Order #%s - %s
+Order Date,Orderdatum
+Order Information,Order Information
+Order Items,Order artiklar
+Order Review,Order recensionerna
+Order Status,Order Status
+Order Total,Order Totalt
+Ordered: High to Low,Beställt: Högt till Lågt
+Ordered: Low to High,Beställt: lågt till Högt
+Ordering,beställning
+Origin,Ursprung
+Out of Stock,Slutsålt
+Page,sidan
+Page Not Found,sidan kunde inte hittas
+Password,lösenord
+Paying,Betalnings
+Payment & Shipping,Betalning och frakt
+Payment Method,Betalningsmetod
+Pending,Avvaktar
+Place Order,Skicka beställning
+Please make sure your passwords match.,Lösenorden matchar inte
+Please Select,Vänligen välj
+Please select country,Vänligen välj Land
+"Please select region, state or province","Vänligen välj region, state elle provins"
+Please specify the product's required option(s).,Vänligen ange produktens önskat alternativ.
+Poor,ganska dålig
+Popular Search,Populära sökningar
+Previous,Föregående
+Price,pris
+Price: High to Low,pris: Högt till Lågt
+Price: Low to High,pris: Lågt till Högt
+Privacy & Security,Sekretesspolicy
+Proceed to Checkout,Fortsätt till Check-out
+Processing,Bearbetning
+Product Name,Produktnamn
+Product Reviews,Produkt recensionerna
+Products,Produkter
+Products Sitemap,Produkter Sidkarta
+Qty,Antal
+Quick Overview,Snabböversikt
+Rating,Betygsättning
+Recent Orders,senaste order
+Recent Viewed,nyligen visade
+Registered Customers,registrerade kunder
+Regular,OK
+Regular Price,Ordinarie pris
+Related,Relaterat
+Remove item,Ta bort artikel
+Remove This Item,Ta bort artikel
+Required Fields,obligatoriskt fält
+Reset,Återställ
+Returns Policy,Retur Policy
+Review,Recensione
+Reviews,Recensionerna
+Save,Spara
+Save in address book,Spara i adressbok
+Save Off,Spara Off
+Search,Sök
+Search entire store here...,Leta efter en artikel eller ett märke
+"Search results for: ""%s""","Sökresultat för: ""%s"""
+Select a billing address from your address book or enter a new address.,Välj en faktureringsadress från din adressbok eller ange en ny adress.
+Select a shipping address from your address book or enter a new address.,Välj leveransadress från din adressbok eller ange en ny adress.
+Select Your Currency,Välj din valuta
+Series,Serie
+Ship To,Ship till
+Ship to different address,Ship till annan adress
+Ship to this address,Ship till denna adress
+Shipping & Delivery,Frakt & Leverans
+Shipping & Handling,Frakt & bruk
+Shipping Address,Leveransadress
+Shipping Information,Leveransinfo
+Shipping Method,Leveransmetod
+Shop By,Handla efter
+Shop With Confidence & Satisfaction Guaranteed,Handla med förtroende & Nöjdhetsgaranti
+Shopping Cart,Kundvagn
+Shopping cart have been updated success.,Kundvagn har uppdaterats framgång.
+Shopping Cart is Empty,Din shoppingvagn är tom
+"Shopping on %s is safe and secure - guaranteed! %s cares about your complete satisfaction. We offer a comprehensive return policy on all items, allowing you to shop with confidence.","Att handla på %s är säkert - garanterat! %s bryr sig om din fulla belåtenhet. Vi erbjuder en returnpolicy på alla produkter, som låter dig handla med förtroende."
+Shopping Options,Alternativ för att handla
+Show,Visa
+Sign Up for Newsletter,Signa upp för vårt nyhetsbrev
+Site Map,Sidkarta
+Size,Storlek
+Size Chart,Storlekstabell
+Sort By,Sortera efter
+Spec,Spec
+Special Price,Specialpris
+Specials,Erbjudanden
+State/Province,State/Provins
+Status,Status
+Store Home,Lagra Hem
+Street Address,adress
+Submit,Skicka in
+Submit Review,Skicka in Recensioner
+Subtotal,Totalsumma
+Success,Framgång
+Telephone,Telefon
+Thank you for registering with Our Store.,Tack för din registrering med vårt lager.
+The account information has been saved.,Kontot har sparats.
+The address has been saved.,Adressen har sparats.
+The minimum password length is 6.,Den minsta lösenordslängd är 6.
+"The page you requested was not found, and we have a fine guess why.","Sidan du begärde hittades inte, och vi har en fin gissa varför."
+The review has been saved.,Recension har sparats.
+The subscription has been saved.,Prenumerationen har sparats.
+There are currently no news.,Det finns inga nyheter.
+There are no products matching the selection.,Det finns inga produkter som överensstämmer med urvalet.
+There are no sitemap matching the selection.,Det finns ingen sitemap matchar urvalet.
+"There is <a href=""%s"">%s item(s)</a> in your cart.","Det finns <a href=""%s"">%s artiklar</a> i din varukorg."
+There is already an account with this email address.,Det finns redan ett konto med denna e-postadress.
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%s"">click here</a> to get your password and access your account.","Det finns redan ett konto med denna e-postadress. Om du är säker på att det är din e-postadress, <a href=""%s"">klicka här</a> för att få ditt lösenord och komma åt ditt konto."
+There was a security error.,Det fanns ett säkerhetsfel.
+This good was added to your shopping cart.,Denna goda lades till i din kundvagn.
+Unit Price,JÄMFÖR PRIS
+Update Shopping Cart,Uppdatera kundvagn
+Use as My Default Billing Address,Använd som min standard faktureringsadress
+Use as My Default Shipping Address,Använd som leveransadress
+Use the search bar at the top of the page to search for your products.,Använd sökfältet längst upp på sidan för att söka efter dina produkter.
+View All,Visa alla
+View as,View as
+View Order,Visa beställning
+Viewed: High to Low,Visad: Högt till Lågt
+Viewed: Low to High,Visad: lågt till Högt
+What can you do?,Vad kan du göra?
+"With a wide variety of payment options, %s offers convenience to customers worldwide. Purchasing options include major credit cards, debit cards, wire transfer, Western Union.","Med ett brett utbud av betalningsalternativ erbjuder %s bekväm shopping till kunder över hela världen. Betalningsmetoder inkluderar kreditkort, kontokort, banköverföring, Western Union."
+Write Your Own Review,Skriv en recension
+Year,år
+You are currently not subscribed to any newsletter.,Du är för närvarande inte prenumererar på varje nyhetsbrev.
+You are currently subscribed.,Du är för närvarande prenumererar.
+You are now logged out,Du är nu Logga ut
+You have logged out and will be redirected to our homepage in 5 seconds.,Du har loggat ut och kommer att omdirigeras till vår hemsida i 5 sekunder.
+You have no additional address entries in your address book.,Du har inga extra adress poster i adressboken.
+You have no items in your shopping cart.,Du har inga varor i din varukorg.
+You have placed no orders.,Du har placerat inga beställningar.
+You have submitted no reviews.,Du har lämnat in inga recensioner.
+You may also be interested in the following product(s),Du kanske även är intresserad av följande produkt (er)
+You must have JavaScript enabled in your browser to utilize the functionality of this website.,Du måste ha JavaScript aktiverat i din webbläsare för att utnyttja funktionaliteten i denna webbplats.
+You will be redirected to Credit Card in a few seconds.,Du kommer att omdirigeras till kreditkort på några sekunder.
+You will be redirected to Paypal in a few seconds.,Du kommer att omdirigeras till Paypal på några sekunder.
+Zip/Postal Code,Zip/Postnummer
+Regular,OK
+All Category,Alla Kategorier
+Payment Methods,Betalningsmetod
+Help,Hjälp
+Currency,valuta
+My Cart (<span>%s</span>) Items,Mitt Kundvagn (<span>%s</span>) artiklar
+My Cart <span>%s</span> Items,Mitt Kundvagn <span>%s</span> artiklar
+My Cart <span>%s</span>,Mitt Kundvagn <span>%s</span>
+My Cart <span>%s Items</span>,Mitt Kundvagn <span>%s artiklar</span>
+Checkout Process,kassan Process
+By <span>%s</span>,efter <span>%s</span>
+Write a review,Skriv en recension
+Model,Modell
+Credit Card Payment,Keditkortsbetalning
+Order Info,Beställningsinfo
+Order Number,Ordernummer
+Order Amount,Beställningssumma
+Card Number,Kortnummer
+Expiration,Utgång
+Month,Månad
+Pay,Betala
+Notes,anteckningar
+"You are now connected to a secure payment site with certificate issued by VeriSign, Your payment details will be securely transmitted to the Bank for transaction authorization in full accordance with PCI standards.",Du är nu ansluten till en säker betalningssida med certifikat utfärdat av VeriSign. Din betalningsinformation kommer säkert att skickas till banken för transaktionsbehörighet i sin helhet enligt PCI-standarderna.

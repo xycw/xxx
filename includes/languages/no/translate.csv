@@ -1,0 +1,319 @@
+"""City"" is a required value. Please enter the city.",Vennligst tast inn By ditt
+"""Country"" is a required value. Please enter the country.",Vennligst tast inn Land ditt
+"""Email Address"" is a required value. Please enter the email address.",Vennligst tast inn en e-post adresse
+"""Email Address"" is not a valid email address.","""E-postadresse"" er ikke gyldig e-postadresse."
+"""First Name"" is a required value. Please enter the first name.",Vennligst tast inn fornavn ditt
+"""Last Name"" is a required value. Please enter the last name.",Vennligst tast inn etternavn ditt
+"""Nickname"" is a required value. Please enter the nickname.",Vennligst tast inn navn ditt
+"""Payment Method"" is a required value.",Vennligst tast inn Betalingsmetoder
+"""Rating"" is a required value. Please select rating.",Vennligst tast inn Kundevurdering
+"""Review"" is a required value. Please enter review.",Vennligst tast inn Anmeldelse ditt
+"""Shipping Method"" is a required value.",Vennligst tast inn Leveringsmåter
+"""State/Province"" is a required value. Please enter the state/province.",Vennligst tast inn Stat / Provins 
+"""Street Address"" is a required value. Please enter the street address.",Vennligst tast inn Adresse ditt
+"""Telephone"" is a required value. Please enter the telephone.",Vennligst tast inn Telefonnummer ditt
+"""Zip/Postal Code"" is a required value. Please enter the zip/postal code.",Vennligst tast inn Postnummer ditt
+"%s offers excellent, comprehensive customer service every step of the way. Before you order, make real time inquiries through use of our live chat. Once you've made a purchase, our customer service representatives are always on-hand to answer questions through our live chat. Shop with confidence and save with %s!","%s tilbyr utmerket, omfattende kundeservice hvert steg på veien. Før du bestiller, gjør sanntid henvendelser gjennom bruk av vår live chat. Når du har gjort et kjøp, våre kundebehandlere er alltid tilgjengelig for å svare på spørsmål via vår live chat. Handle trygt og lagre med nikenike tilbyr utmerket, omfattende kundeservice hvert steg på veien. Før du bestiller, gjør sanntid henvendelser gjennom bruk av vår live chat. Når du har gjort et kjøp, våre kundebehandlere er alltid tilgjengelig for å svare på spørsmål via vår live chat. Handle trygt og lagre med %s!"
+"<a onclick=""history.go(-1); return false;"" href=""#"">Go back</a> to the previous page.","<a onclick=""history.go(-1); return false;"" href=""#"">Gå tilbake</a> til forrige side."
+A variety of expedited shipping methods mean there is a convenient delivery option for every budget.,En rekke fremskyndet forsendelsesmetoder mener det er en praktisk levering alternativ for ethvert budsjett.
+About Us,Om oss
+Account Dashboard,Kontooversikt
+Account Information,Kontoinformasjon
+Add New Address,Legg til ny adresse
+Add to Cart,Legg i handlekurven
+Add to Compare,Legg til sammenligning 
+Add to Wishlist,Legg til ønskeliste
+Additional Address,Ekstra adresseopplysninger
+Address Book,Adresse Bok
+All Products,Alle produkter
+Apply Coupon,Løs inn kupong
+Are you sure you want to delete this address?,Vil du virkelig slette adressen?
+Availability,Lagerstatus
+Back,Tilbake
+Back to Main Product Info,Tilbake til Produktinformasjon
+Back to My Orders,Tilbake til Min Bestillings
+Bad,1 Stjerne
+Bestsellers,Bestselgere
+Billing Address,Faktureringsadresse
+Billing Information,fakturainfo
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.","Ved å opprette en konto hos oss vil du enklere kunne gjennomføre fremtidige kjøp, få oversikt over alle dine kjøp, osv."
+Cancel,Kansellere
+Cancel Coupon,AvbrytKupong
+Cart Subtotal,Subtotal
+Categories,Kategori
+Categories Sitemap,Kategori Sitemap
+Category,Kategori
+Change Billing Address,Endre fakturaadresse
+Change Password,Endre Passord
+Change Shipping Address,Endre leveringsadresse
+Checkout,Kassen
+Checkout Result,Kassen Resultere
+City,By
+Class,klasse
+Clear All,Nullstill alle filtere
+Clear Shopping Cart,Tøm handlekurven
+"Click <a href=""%s"">here</a> to continue shopping.","Klikk <a href=""%s"">her</a> for å fortsette å handle"
+Color,Farge
+Company,Selskap
+Company Info,Firmainformasjon
+Confirm New Password,Bekreft nytt passord
+Confirm Password,Bekreft passord
+Contact Information,Kontaktinformasjon
+Contact Us,Kontakt oss
+Continue Shopping,Fortsett å handle
+Convenient & Friendly Customer Service,Beleilig & Vennlig Kundeservice
+Country,Land
+Coupon (<span>%s</span>),Kupong (<span>%s</span>)
+"Coupon code ""%s"" is not valid.","Kupongkode ""%s"" er ikke gyldig."
+"Coupon code ""%s"" was applied.","Kupongkode ""%s"" ble brukt"
+Coupon code was canceled.,Kupongkoden ble kansellert.
+Coupon Codes,Kupongkode
+Create Account,Opprett konto
+Create an Account,Lag en konto
+Create New Customer Account,Opprett ny konto
+Current Password,Gjeldende passord
+Currently Shopping by,Viser nå varer etter
+Customer Login,Logg inn
+Customer Reviews,Kundevurdering
+Customer Service,Kundeservice
+Date,Dato
+Date Added: New to Old,lagtdato: nytt til gammel
+Date Added: Old to New,lagtdato: gammel til nytt
+Default,Standard
+Default Addresses,Standardadresser
+Default Billing Address,Standard fakturaadresse
+Default Shipping Address,Standard leveringsadresse
+Delete Address,Slett adresse
+Delivery,Levering
+Description,Beskrivelse
+Details,Detaljer
+Discount,Rabatt
+Easy & Safe Online Shopping,Enkel & Sikker Online Bestilling
+Edit,Endre 
+Edit Address,Endre adresse
+Email Address,E-post
+Enter your coupon code if you have one.,Har du en rabattkode kan du skrive den inn her.
+"Every %s product undergoes an extensive testing and quality control procedure, ensuring each and every item purchased meets global quality standards. %s offers only the highest quality products, allowing customers to shop with confidence.","Hver %s produktet gjennomgår en omfattende testing og kvalitetskontroll prosedyre, som sikrer hver vare kjøpt oppfyller globale kvalitetsstandarder. %s tilbyr kun produkter av høyeste kvalitet, slik at kundene kan handle trygt."
+Failure,Svikt
+Faq,Faq
+Fast Delivery Around The Globe,Rask Levering Around The Globe
+Fax,Fax
+Featured,Utvalgte produkter
+Finish,Fullfør
+First Name,Fornavn
+Follow these links to get you back on track!,Følg disse linkene for å få deg tilbake på sporet!
+Forgot Your Password?,Glemt passord?
+From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.,Fra din konto Dashboard har du muligheten til å se på et bilde av nylig kontoaktivitet og oppdatere din kontoinformasjon. Velg en lenke nedenfor for å vise eller redigere informasjon.
+Gender,Gender
+General Subscription,Generell abonnement
+Good,4 Stjerne
+Gorgeous,5 Stjerne
+Grand Total,Ordretotal
+Grid,Galleri
+"Have no fear, help is near! There are many ways you can get back on track with Our Store.","Har ingen frykt, er hjelpen nær! Det er mange måter du kan komme tilbake på sporet med vår butikk."
+"Hello, %s!","Hallo, %s!"
+High Quality With Global Standards,Høy Kvalitet med Globale Standarder
+Home,Hjem
+"If you clicked on a link to get here, the link is outdated.","Hvis du klikket på en lenke for å komme hit, er linken utdatert."
+"If you have an account with us, please log in.",Logg inn her dersom du allerede har en konto hos oss.
+"If you typed the URL directly, please make sure the spelling is correct.","Hvis du skrev inn nettadressen direkte, kan du være sikker på stavemåten er riktig."
+In stock,På lager
+Information,Informasjon
+Invalid login or password.,Ugyldig brukernavn eller passord.
+Item(s),Varer
+Items <span>%s</span> to <span>%s</span> of <span>%s</span> total,Viser <span>%s</span> til <span>%s</span> av <span>%s</span> produkter
+JavaScript seem to be disabled in your browser.,JavaScript ser ut til å være deaktivert i nettleseren din.
+Last Name,Etternavn
+List,Organiser
+Log In,Logg inn
+Log Out,Logg ut
+Login,Logg inn
+Login or Create an Account,Logg Inn eller Registrer
+Manage Addresses,Administrere adresse
+Material,Materiale
+More Views,Flere visninger
+My Account,Min konto
+My Cart,Min Cart
+My Cart (<span>%s</span> Items),Min Cart (<span>%s</span> Elementer)
+My Dashboard,Min oversikt
+My Orders,Mine ordre
+My Product Reviews,Mine Vare Anmeldelse
+My Recent Reviews,Mine Nylig Anmeldelser
+Name,Navn
+Name: A to Z,Navn:A til Z
+Name: Z to A,Navn:Z til A
+New Address,Ny Adresse
+New Arrivals,Nyheter
+New Customers,Ny kunde
+New Password,Nytt passord
+New Products,Nye Varer
+News,Nyheter
+Newsletter Subscriptions,Nyhetsbrev abonnement
+Newsletters,Nyhetsbrev
+Next,Neste
+Nickname,Navn
+Not Available At This Time,Ikke tilgjengelig på dette tidspunktet
+Num,Antall
+Order #,Bestillings #
+Order #%s - %s,Bestillings #%s - %s
+Order Date,Bestillingsdato
+Order Information,Bestillingsdetaljer
+Order Items,Varenummer
+Order Review,BestillingsAnmeldelse
+Order Status,Bestillingsstatus
+Order Total,Samlet pris
+Ordered: High to Low,Bestillings:Høy til lav
+Ordered: Low to High,Bestillings:Lav til høy
+Ordering,Bestillings
+Origin,Origin
+Out of Stock,Ikke på lager
+Page,Side
+Page Not Found,Fant ikke siden
+Password,Passord
+Paying,betale
+Payment & Shipping,Betaling & Frakt
+Payment Method,Betalingsmetode
+Pending,Avventer
+Place Order,Bestill
+Please make sure your passwords match.,"Passordene dine samsvarer ikke, prøv vennligst igjen."
+Please Select,Velg størrelse
+Please select country,Velg vennligst din 
+"Please select region, state or province",Velg vennligst din stat/provins/region.
+Please specify the product's required option(s).,Vennligst oppgi produktets ønsket alternativ.
+Poor,2 Stjerne
+Popular Search,Avansert søk
+Previous,Forrige
+Price,Pris
+Price: High to Low,Pris:Høy til lav
+Price: Low to High,Pris:Lav til høy
+Privacy & Security,Personvern & Sikkerhet
+Proceed to Checkout,Fortsett til kassen
+Processing,Processing
+Product Name,Produktnavn
+Product Reviews,Vare Anmeldelser
+Products,Produkter
+Products Sitemap,Produkter Sitemap
+Qty,Mengde
+Quick Overview,Oversikt
+Rating,Vurdering
+Recent Orders,Nylig Bestillings
+Recent Viewed,Nylig Sette
+Registered Customers,Registrer
+Regular,vanlig
+Regular Price,vanlig pris
+Related,Relatert
+Remove item,Fjern produktet
+Remove This Item,Fjern produktet
+Required Fields,Feltene må fylles ut
+Reset,tilbakestille
+Returns Policy,Retningslinjer for Returnering
+Review,Anmeldelse
+Reviews,Anmeldelser
+Save,Sconto
+Save in address book,Lagre i adressebok
+Save Off,Sconto
+Search,SØK
+Search entire store here...,Søk på produktnavn.
+"Search results for: ""%s""","Søkeresultater for ""%s"""
+Select a billing address from your address book or enter a new address.,Velg en fakturaadresse fra adresseboken eller tast inn ny adresse
+Select a shipping address from your address book or enter a new address.,Velg en Leveringsadresse fra adresseboken eller tast inn ny adresse
+Select Your Currency,Valuta
+Series,Series
+Ship To,skip til
+Ship to different address,Levering til annen adresse
+Ship to this address,Levering til denne adressen
+Shipping & Delivery,Frakt og Devering
+Shipping & Handling,Levering & håndtering
+Shipping Address,Leveringsadresse
+Shipping Information,frakt Informasjon
+Shipping Method,Fraktmetode
+Shop By,Kjøp etter
+Shop With Confidence & Satisfaction Guaranteed,jobber kun med sikre og trygge betalingsløsninger
+Shopping Cart,Handlekurv
+Shopping cart have been updated success.,Handlekurven er oppdatert suksess.
+Shopping Cart is Empty,Handlekurven er tom.
+"Shopping on %s is safe and secure - guaranteed! %s cares about your complete satisfaction. We offer a comprehensive return policy on all items, allowing you to shop with confidence.","Shopping på %s er trygt og sikkert - garantert! %s bryr seg om din tilfredshet. Vi tilbyr en omfattende returrett på alle elementer, slik at du kan handle trygt."
+Shopping Options,Handle alternativer
+Show,Vis
+Sign Up for Newsletter,Meld på for Nyhetsbrev
+Site Map,Site Map
+Size,Størrelse
+Size Chart,Størrelsesguide
+Sort By,Sorter etter
+Spec,Spec
+Special Price,Spesialpris
+Specials,Tilbud
+State/Province,Stat / Provins
+Status,Status
+Store Home,Startsiden
+Street Address,Adresse
+Submit,Send
+Submit Review,Legg inn omtalen  
+Subtotal,Total sum
+Success,Suksess
+Telephone,Telefon
+Thank you for registering with Our Store.,Takk for at du opprettet en kundekonto hos oss.
+The account information has been saved.,Brukerinformasjonen er nå lagret.
+The address has been saved.,Adressen er lagret.
+The minimum password length is 6.,Skriv inn 6 eller flere tegn.
+"The page you requested was not found, and we have a fine guess why.","Siden du forespurte ble ikke funnet, og vi har en fin gjette hvorfor."
+The review has been saved.,Din kundevurdering ble lagret Takk skal du ha!
+The subscription has been saved.,Abonnementet er lagret.
+There are currently no news.,Det er for tiden ingen nyheter.
+There are no products matching the selection.,Det finnes ingen produkter som svarer til valgene.
+There are no sitemap matching the selection.,Det er ingen sitemap som svarer til valgene.
+"There is <a href=""%s"">%s item(s)</a> in your cart.","Det er <a href=""%s"">%s element</a> i handlekurven."
+There is already an account with this email address.,Det er allerede en konto med denne e-post.
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%s"">click here</a> to get your password and access your account.","Det er allerede en konto med denne e-post. Hvis du er sikker på at det er din e-post, kan du klikke her for å få passord og tilgang til kontoen din."
+There was a security error.,Det var en sikkerhetsfeil.
+This good was added to your shopping cart.,Denne gode ble lagt inn i handlekurven.
+Unit Price,Stykkpris
+Update Shopping Cart,Oppdater
+Use as My Default Billing Address,Bruk denne adressen som min standard fakturaadresse
+Use as My Default Shipping Address,Bruk denne adressen som min standard leveringsadresse
+Use the search bar at the top of the page to search for your products.,Bruk søkefeltet øverst på siden for å søke etter dine produkter.
+View All,Vis Alle
+View as,Vis
+View Order,vis Bestillings
+Viewed: High to Low,vis høy til lav
+Viewed: Low to High,vis lav til høy
+What can you do?,Hva kan du gjøre?
+"With a wide variety of payment options, %s offers convenience to customers worldwide. Purchasing options include major credit cards, debit cards, wire transfer, Western Union.","Med et bredt utvalg av betalingsmåter, tilbyr %s bekvemmelighet til kunder over hele verden. Innkjøp alternativene inkluderer store kredittkort, debetkort, bankoverføring, Western Union."
+Write Your Own Review,Skriv din egen omtale
+Year,År
+You are currently not subscribed to any newsletter.,For øyeblikket abonnerer du ikke på noe Nyhetsbrev.
+You are currently subscribed.,For øyeblikket abonnerer Nyhetsbrev.
+You are now logged out,Du har logget av.
+You have logged out and will be redirected to our homepage in 5 seconds.,Du har logget ut og vil bli omdirigert til vår hjemmeside i fem sekunder.
+You have no additional address entries in your address book.,Du har ingen ekstra adresseoppføringene i adresseboken din.
+You have no items in your shopping cart.,Du har ingen produkter i handlekurven.
+You have placed no orders.,Du har ingen bestillinger enda.
+You have submitted no reviews.,Du har sendt ingen vurderinger.
+You may also be interested in the following product(s),Du kan også være interessert i følgende produkter
+You must have JavaScript enabled in your browser to utilize the functionality of this website.,Du må ha JavaScript aktivert i nettleseren for å utnytte funksjonaliteten til dette nettstedet.
+You will be redirected to Credit Card in a few seconds.,Du vil bli omdirigert til kredittkort i noen få sekunder.
+You will be redirected to Paypal in a few seconds.,Du vil bli videresendt til Paypal i noen få sekunder.
+Zip/Postal Code,Postnummer
+Regular,3 Stjerne
+All Category,All Kategori
+Payment Methods,Betalingsmåter
+Help,Hjelp
+Currency,Valuta
+My Cart (<span>%s</span>) Items,Min Cart (<span>%s</span>) Elementer
+My Cart <span>%s</span> Items,Min Cart <span>%s</span> Elementer
+My Cart <span>%s</span>,Min Cart <span>%s</span>
+My Cart <span>%s Items</span>,Min Cart <span>%s Elementer</span>
+Checkout Process,Kasse Prosessen
+By <span>%s</span>,Av <span>%s</span>
+Write a review,Skriv en anmeldelse
+Model,Model
+Credit Card Payment,Kredittkortbetaling
+Order Info,Bestillingsinformasjon
+Order Number,Ordrenummer
+Order Amount,Bestillingsbeløp
+Card Number,Kortnummer
+Expiration,Utløp
+Month,Måned
+Pay,Betale
+Notes,Merknader
+"You are now connected to a secure payment site with certificate issued by VeriSign, Your payment details will be securely transmitted to the Bank for transaction authorization in full accordance with PCI standards.",Du er nå koblet til et sikkert betalingssted med sertifikat utstedt av VeriSign. Dine betalingsdetaljer vil bli overført sikkert til banken for transaksjonstillatelse i full overensstemmelse med PCI-standarder.

@@ -1,0 +1,319 @@
+"""City"" is a required value. Please enter the city.","""City"" is a required value. Please enter the city."
+"""Country"" is a required value. Please enter the country.","""Country"" is a required value. Please enter the country."
+"""Email Address"" is a required value. Please enter the email address.","""Email Address"" is a required value. Please enter the email address."
+"""Email Address"" is not a valid email address.","""Email Address"" is not a valid email address."
+"""First Name"" is a required value. Please enter the first name.","""First Name"" is a required value. Please enter the first name."
+"""Last Name"" is a required value. Please enter the last name.","""Last Name"" is a required value. Please enter the last name."
+"""Nickname"" is a required value. Please enter the nickname.","""Nickname"" is a required value. Please enter the nickname."
+"""Payment Method"" is a required value.","""Payment Method"" is a required value."
+"""Rating"" is a required value. Please select rating.","""Rating"" is a required value. Please select rating."
+"""Review"" is a required value. Please enter review.","""Review"" is a required value. Please enter review."
+"""Shipping Method"" is a required value.","""Shipping Method"" is a required value."
+"""State/Province"" is a required value. Please enter the state/province.","""State/Province"" is a required value. Please enter the state/province."
+"""Street Address"" is a required value. Please enter the street address.","""Street Address"" is a required value. Please enter the street address."
+"""Telephone"" is a required value. Please enter the telephone.","""Telephone"" is a required value. Please enter the telephone."
+"""Zip/Postal Code"" is a required value. Please enter the zip/postal code.","""Zip/Postal Code"" is a required value. Please enter the zip/postal code."
+"%s offers excellent, comprehensive customer service every step of the way. Before you order, make real time inquiries through use of our live chat. Once you've made a purchase, our customer service representatives are always on-hand to answer questions through our live chat. Shop with confidence and save with %s!","%s offers excellent, comprehensive customer service every step of the way. Before you order, make real time inquiries through use of our live chat. Once you've made a purchase, our customer service representatives are always on-hand to answer questions through our live chat. Shop with confidence and save with %s!"
+"<a onclick=""history.go(-1); return false;"" href=""#"">Go back</a> to the previous page.","<a onclick=""history.go(-1); return false;"" href=""#"">Go back</a> to the previous page."
+A variety of expedited shipping methods mean there is a convenient delivery option for every budget.,A variety of expedited shipping methods mean there is a convenient delivery option for every budget.
+About Us,About Us
+Account Dashboard,Account Dashboard
+Account Information,Account Information
+Add New Address,Add New Address
+Add to Cart,Add to Cart
+Add to Compare,Add to Compare
+Add to Wishlist,Add to Wishlist
+Additional Address,Additional Address
+Address Book,Address Book
+All Products,All Products
+Apply Coupon,Apply Coupon
+Are you sure you want to delete this address?,Are you sure you want to delete this address?
+Availability,Availability
+Back,Back
+Back to Main Product Info,Back to Main Product Info
+Back to My Orders,Back to My Orders
+Bad,Bad
+Bestsellers,Bestsellers
+Billing Address,Billing Address
+Billing Information,Billing Information
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.","By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more."
+Cancel,Cancel
+Cancel Coupon,Cancel Coupon
+Cart Subtotal,Cart Subtotal
+Categories,Categories
+Categories Sitemap,Categories Sitemap
+Category,Category
+Change Billing Address,Change Billing Address
+Change Password,Change Password
+Change Shipping Address,Change Shipping Address
+Checkout,Checkout
+Checkout Result,Checkout Result
+City,City
+Class,Class
+Clear All,Clear All
+Clear Shopping Cart,Clear Shopping Cart
+"Click <a href=""%s"">here</a> to continue shopping.","Click <a href=""%s"">here</a> to continue shopping."
+Color,Color
+Company,Company
+Company Info,Company Info
+Confirm New Password,Confirm New Password
+Confirm Password,Confirm Password
+Contact Information,Contact Information
+Contact Us,Contact Us
+Continue Shopping,Continue Shopping
+Convenient & Friendly Customer Service,Convenient & Friendly Customer Service
+Country,Country
+Coupon (<span>%s</span>),Coupon (<span>%s</span>)
+"Coupon code ""%s"" is not valid.","Coupon code ""%s"" is not valid."
+"Coupon code ""%s"" was applied.","Coupon code ""%s"" was applied."
+Coupon code was canceled.,Coupon code was canceled.
+Coupon Codes,Coupon Codes
+Create Account,Create Account
+Create an Account,Create an Account
+Create New Customer Account,Create New Customer Account
+Current Password,Current Password
+Currently Shopping by,Currently Shopping by
+Customer Login,Customer Login
+Customer Reviews,Customer Reviews
+Customer Service,Customer Service
+Date,Date
+Date Added: New to Old,Date Added: New to Old
+Date Added: Old to New,Date Added: Old to New
+Default,Default
+Default Addresses,Default Addresses
+Default Billing Address,Default Billing Address
+Default Shipping Address,Default Shipping Address
+Delete Address,Delete Address
+Delivery,Delivery
+Description,Description
+Details,Details
+Discount,Discount
+Easy & Safe Online Shopping,Easy & Safe Online Shopping
+Edit,Edit
+Edit Address,Edit Address
+Email Address,Email Address
+Enter your coupon code if you have one.,Enter your coupon code if you have one.
+"Every %s product undergoes an extensive testing and quality control procedure, ensuring each and every item purchased meets global quality standards. %s offers only the highest quality products, allowing customers to shop with confidence.","Every %s product undergoes an extensive testing and quality control procedure, ensuring each and every item purchased meets global quality standards. %s offers only the highest quality products, allowing customers to shop with confidence."
+Failure,Failure
+Faq,Faq
+Fast Delivery Around The Globe,Fast Delivery Around The Globe
+Fax,Fax
+Featured,Featured
+Finish,Finish
+First Name,First Name
+Follow these links to get you back on track!,Follow these links to get you back on track!
+Forgot Your Password?,Forgot Your Password?
+From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.,From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.
+Gender,Gender
+General Subscription,General Subscription
+Good,Good
+Gorgeous,Gorgeous
+Grand Total,Grand Total
+Grid,Grid
+"Have no fear, help is near! There are many ways you can get back on track with Our Store.","Have no fear, help is near! There are many ways you can get back on track with Our Store."
+"Hello, %s!","Hello, %s!"
+High Quality With Global Standards,High Quality With Global Standards
+Home,Home
+"If you clicked on a link to get here, the link is outdated.","If you clicked on a link to get here, the link is outdated."
+"If you have an account with us, please log in.","If you have an account with us, please log in."
+"If you typed the URL directly, please make sure the spelling is correct.","If you typed the URL directly, please make sure the spelling is correct."
+In stock,In stock
+Information,Information
+Invalid login or password.,Invalid login or password.
+Item(s),Item(s)
+Items <span>%s</span> to <span>%s</span> of <span>%s</span> total,Items <span>%s</span> to <span>%s</span> of <span>%s</span> total
+JavaScript seem to be disabled in your browser.,JavaScript seem to be disabled in your browser.
+Last Name,Last Name
+List,List
+Log In,Log In
+Log Out,Log Out
+Login,Login
+Login or Create an Account,Login or Create an Account
+Manage Addresses,Manage Addresses
+Material,Material
+More Views,More Views
+My Account,My Account
+My Cart,My Cart
+My Cart (<span>%s</span> Items),My Cart (<span>%s</span> Items)
+My Dashboard,My Dashboard
+My Orders,My Orders
+My Product Reviews,My Product Reviews
+My Recent Reviews,My Recent Reviews
+Name,Name
+Name: A to Z,Name: A to Z
+Name: Z to A,Name: Z to A
+New Address,New Address
+New Arrivals,New Arrivals
+New Customers,New Customers
+New Password,New Password
+New Products,New Products
+News,News
+Newsletter Subscriptions,Newsletter Subscriptions
+Newsletters,Newsletters
+Next,Next
+Nickname,Nickname
+Not Available At This Time,Not Available At This Time
+Num,Num
+Order #,Order #
+Order #%s - %s,Order #%s - %s
+Order Date,Order Date
+Order Information,Order Information
+Order Items,Order Items
+Order Review,Order Review
+Order Status,Order Status
+Order Total,Order Total
+Ordered: High to Low,Ordered: High to Low
+Ordered: Low to High,Ordered: Low to High
+Ordering,Ordering
+Origin,Origin
+Out of Stock,Out of Stock
+Page,Page
+Page Not Found,Page Not Found
+Password,Password
+Paying,Paying
+Payment & Shipping,Payment & Shipping
+Payment Method,Payment Method
+Pending,Pending
+Place Order,Place Order
+Please make sure your passwords match.,Please make sure your passwords match.
+Please Select,Please Select
+Please select country,Please select country
+"Please select region, state or province","Please select region, state or province"
+Please specify the product's required option(s).,Please specify the product's required option(s).
+Poor,Poor
+Popular Search,Popular Search
+Previous,Previous
+Price,Price
+Price: High to Low,Price: High to Low
+Price: Low to High,Price: Low to High
+Privacy & Security,Privacy & Security
+Proceed to Checkout,Proceed to Checkout
+Processing,Processing
+Product Name,Product Name
+Product Reviews,Product Reviews
+Products,Products
+Products Sitemap,Products Sitemap
+Qty,Qty
+Quick Overview,Quick Overview
+Rating,Rating
+Recent Orders,Recent Orders
+Recent Viewed,Recent Viewed
+Registered Customers,Registered Customers
+Regular,Regular
+Regular Price,Regular Price
+Related,Related
+Remove item,Remove item
+Remove This Item,Remove This Item
+Required Fields,Required Fields
+Reset,Reset
+Returns Policy,Returns Policy
+Review,Review
+Reviews,Reviews
+Save,Save
+Save in address book,Save in address book
+Save Off,Save Off
+Search,Search
+Search entire store here...,Search entire store here...
+"Search results for: ""%s""","Search results for: ""%s"""
+Select a billing address from your address book or enter a new address.,Select a billing address from your address book or enter a new address.
+Select a shipping address from your address book or enter a new address.,Select a shipping address from your address book or enter a new address.
+Select Your Currency,Select Your Currency
+Series,Series
+Ship To,Ship To
+Ship to different address,Ship to different address
+Ship to this address,Ship to this address
+Shipping & Delivery,Shipping & Delivery
+Shipping & Handling,Shipping & Handling
+Shipping Address,Shipping Address
+Shipping Information,Shipping Information
+Shipping Method,Shipping Method
+Shop By,Shop By
+Shop With Confidence & Satisfaction Guaranteed,Shop With Confidence & Satisfaction Guaranteed
+Shopping Cart,Shopping Cart
+Shopping cart have been updated success.,Shopping cart have been updated success.
+Shopping Cart is Empty,Shopping Cart is Empty
+"Shopping on %s is safe and secure - guaranteed! %s cares about your complete satisfaction. We offer a comprehensive return policy on all items, allowing you to shop with confidence.","Shopping on %s is safe and secure - guaranteed! %s cares about your complete satisfaction. We offer a comprehensive return policy on all items, allowing you to shop with confidence."
+Shopping Options,Shopping Options
+Show,Show
+Sign Up for Newsletter,Sign Up for Newsletter
+Site Map,Site Map
+Size,Size
+Size Chart,Size Chart
+Sort By,Sort By
+Spec,Spec
+Special Price,Special Price
+Specials,Specials
+State/Province,State/Province
+Status,Status
+Store Home,Store Home
+Street Address,Street Address
+Submit,Submit
+Submit Review,Submit Review
+Subtotal,Subtotal
+Success,Success
+Telephone,Telephone
+Thank you for registering with Our Store.,Thank you for registering with Our Store.
+The account information has been saved.,The account information has been saved.
+The address has been saved.,The address has been saved.
+The minimum password length is 6.,The minimum password length is 6.
+"The page you requested was not found, and we have a fine guess why.","The page you requested was not found, and we have a fine guess why."
+The review has been saved.,The review has been saved.
+The subscription has been saved.,The subscription has been saved.
+There are currently no news.,There are currently no news.
+There are no products matching the selection.,There are no products matching the selection.
+There are no sitemap matching the selection.,There are no sitemap matching the selection.
+"There is <a href=""%s"">%s item(s)</a> in your cart.","There is <a href=""%s"">%s item(s)</a> in your cart."
+There is already an account with this email address.,There is already an account with this email address.
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%s"">click here</a> to get your password and access your account.","There is already an account with this email address. If you are sure that it is your email address, <a href=""%s"">click here</a> to get your password and access your account."
+There was a security error.,There was a security error.
+This good was added to your shopping cart.,This good was added to your shopping cart.
+Unit Price,Unit Price
+Update Shopping Cart,Update Shopping Cart
+Use as My Default Billing Address,Use as My Default Billing Address
+Use as My Default Shipping Address,Use as My Default Shipping Address
+Use the search bar at the top of the page to search for your products.,Use the search bar at the top of the page to search for your products.
+View All,View All
+View as,View as
+View Order,View Order
+Viewed: High to Low,Viewed: High to Low
+Viewed: Low to High,Viewed: Low to High
+What can you do?,What can you do?
+"With a wide variety of payment options, %s offers convenience to customers worldwide. Purchasing options include major credit cards, debit cards, wire transfer, Western Union.","With a wide variety of payment options, %s offers convenience to customers worldwide. Purchasing options include major credit cards, debit cards, wire transfer, Western Union."
+Write Your Own Review,Write Your Own Review
+Year,Year
+You are currently not subscribed to any newsletter.,You are currently not subscribed to any newsletter.
+You are currently subscribed.,You are currently subscribed.
+You are now logged out,You are now logged out
+You have logged out and will be redirected to our homepage in 5 seconds.,You have logged out and will be redirected to our homepage in 5 seconds.
+You have no additional address entries in your address book.,You have no additional address entries in your address book.
+You have no items in your shopping cart.,You have no items in your shopping cart.
+You have placed no orders.,You have placed no orders.
+You have submitted no reviews.,You have submitted no reviews.
+You may also be interested in the following product(s),You may also be interested in the following product(s)
+You must have JavaScript enabled in your browser to utilize the functionality of this website.,You must have JavaScript enabled in your browser to utilize the functionality of this website.
+You will be redirected to Credit Card in a few seconds.,You will be redirected to Credit Card in a few seconds.
+You will be redirected to Paypal in a few seconds.,You will be redirected to Paypal in a few seconds.
+Zip/Postal Code,Zip/Postal Code
+Regular,Regular
+All Category,All Category
+Payment Methods,Payment Methods
+Help,Help
+Currency,Currency
+My Cart (<span>%s</span>) Items,My Cart (<span>%s</span>) Items
+My Cart <span>%s</span> Items,My Cart <span>%s</span> Items
+My Cart <span>%s</span>,My Cart <span>%s</span>
+My Cart <span>%s Items</span>,My Cart <span>%s Items</span>
+Checkout Process,Checkout Process
+By <span>%s</span>,By <span>%s</span>
+Write a review,Write a review
+Model,Model
+Credit Card Payment,Credit Card Payment
+Order Info,Order Info
+Order Number,Order Number
+Order Amount,Order Amount
+Card Number,Card Number
+Expiration,Expiration
+Month,Month
+Pay,Pay
+Notes,Notes
+"You are now connected to a secure payment site with certificate issued by VeriSign, Your payment details will be securely transmitted to the Bank for transaction authorization in full accordance with PCI standards.","You are now connected to a secure payment site with certificate issued by VeriSign, Your payment details will be securely transmitted to the Bank for transaction authorization in full accordance with PCI standards."

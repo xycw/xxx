@@ -1,0 +1,2 @@
+<?php require($template->get_template_dir('tpl_account.php', DIR_WS_TEMPLATE, $current_page, 'sidebar') . 'tpl_account.php'); ?>
+<?php require($template->get_template_dir('tpl_cart.php', DIR_WS_TEMPLATE, $current_page, 'sidebar') . 'tpl_cart.php'); ?>

@@ -1,0 +1,1 @@
+a:1:{i:0;a:5:{s:17:"product_option_id";s:1:"1";s:4:"type";s:6:"select";s:4:"name";s:4:"Size";s:8:"required";s:1:"1";s:10:"sort_order";s:1:"1";}}

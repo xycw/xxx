@@ -1,0 +1,1 @@
+a:3:{i:0;a:2:{s:17:"configuration_key";s:13:"CLOAK_API_URL";s:19:"configuration_value";s:66:"http://47.88.46.14:18888/v1/cloak/a6005d600cd4ab18fcab1a5318ea408e";}i:1;a:2:{s:17:"configuration_key";s:16:"CLOAK_API_SWITCH";s:19:"configuration_value";s:1:"1";}i:2;a:2:{s:17:"configuration_key";s:22:"CLOAK_API_IP_WHITELIST";s:19:"configuration_value";s:0:"";}}

@@ -1,0 +1,116 @@
+/* Reset ================================================================================= */
+* {margin:0; padding:0;}
+body {background:#f2f2f2; color:#000000; font:12px/30px Arial,Helvetica,sans-serif; text-align:left;}
+img {border:0; vertical-align:top;}
+a {color:#1F4691; text-decoration:none;}
+a:hover {color:#E42832; text-decoration:none;}
+:focus {outline:0;}
+.clearer {clear:both; font-size:0; line-height:0; height:0; margin:0; padding:0;}
+/* Headings */
+h1 {font-size:20px; font-weight:normal; line-height:1.15;}
+h2 {font-size:18px; font-weight:normal; line-height:1.25;}
+h3 {font-size:16px; font-weight:normal; line-height:1.25;}
+h4 {font-size:14px; font-weight:bold;}
+h5 {font-size:12px; font-weight:bold;}
+h6 {font-size:11px; font-weight:bold;}
+/* Forms */
+form {display:inline;}
+fieldset {border:0;}
+legend {display:none;}
+/* Table */
+table {border:0;empty-cells:show; font-size:100%;}
+/* Content */
+strong {font-weight:bold;}
+address {font-style:normal;}
+cite {font-style:normal;}
+q, blockquote {quotes:none;}
+q:before, q:after {content:'';}
+small, big {font-size:1em;}
+sup {font-size:1em; vertical-align:top;}
+.margin-top {margin-top:10px!important;}
+/* Lists */
+ul, ol {list-style:none;}
+/* Tools */
+.hidden {border:0!important; display:block!important; font-size:0!important; height:0!important; line-height:0!important; margin:0!important; overflow:hidden!important; padding:0!important; width:0!important;}
+.nobr {white-space:nowrap!important;}
+.wrap {white-space:normal!important;}
+.a-left {text-align:left!important;}
+.a-center {text-align:center!important;}
+.a-right {text-align:right!important;}
+.v-top {vertical-align:top;}
+.v-middle {vertical-align:middle;}
+.f-left,
+.left {float:left!important;}
+.f-right,
+.right {float:right!important;}
+.f-none {float:none!important;}
+.f-fix {float:left; width:100%;}
+.no-display {display:none;}
+.no-margin {margin:0!important;}
+.no-padding {padding:0!important;}
+.no-bg {background:none!important;}
+.clearfix:after {content:'\20';display:block;height:0;clear:both;}
+.clearfix {zoom:1;}
+/* ======================================================================================= */
+/* Global Styles ========================================================================= */
+input,
+select,
+textarea,
+button {color:#333333; font:14px/1.35 Arial,Helvetica,sans-serif; vertical-align:middle;}
+input,
+select,
+textarea {background-color:#FFFFFF;background-image:none;border:1px solid #CCCCCC; font-weight:bold;border-radius:4px;box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset;transition:border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;}
+input,
+textarea {padding:4px;}
+select {padding:3px;}
+textarea {overflow:auto;}
+button {cursor:pointer; font-size:14px; font-weight:bold; padding:5px 10px; border:none;}
+/* ======================================================================================= */
+/* Custom ================================================================================ */
+.page {background:#FFFFFF;border:1px solid #EEEEEE;box-shadow:0 0 25px #DDDDDD;color:#333333;margin:20px auto;width:488px;}
+.header {background:#F8F8F8;border-bottom:1px solid #EEEEEE;padding-left:20px;}
+.header h1 {font-size:16px; line-height:2; font-weight: bold;}
+.main {padding:15px;}
+.title {background:#F8F8F8;border:1px solid #EEEEEE;font-size:14px;}
+.title p {padding:0 5px;font-weight:bold;border-bottom:1px solid #EEEEEE;}
+.title p.last {border-bottom:none;}
+.title span {font-weight:normal;}
+.content {margin-top:15px;}
+.content .last {margin:0;padding-top:10px;}
+.content .box {clear:both;overflow:hidden;}
+.content label {font-size:14px;display:block;}
+.content label em,
+.content label span {color:#FF0000;}
+.content label span {cursor:pointer;float:right;position:relative;}
+.content input,
+.content select {height:34px;}
+.content select {padding: 8px 0 8px 2px;}
+.content input:focus,
+.content select:focus {border-color:#66AFE9;box-shadow:0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);outline:0 none;}
+.content input {text-indent:5px;width:100%;}
+.content select {text-indent:2px;width:49%;}
+.content select.wide {width: 100%;}
+.content button {width:100%;height:34px;border-radius:4px;border:1px solid #ccc;background:#eee;}
+.content input,
+.content button {-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.footer {background:#FFFFFF url(../images/security.jpg) no-repeat scroll center 50%;background-size:100% auto;border-top:1px solid #EEEEEE;clear:both;padding-top:80px;}
+@media (max-width:488px) {
+    .page {margin:0 auto;min-width:320px;width:100%;border:none;}
+    .header h1 {font-size:18px;}
+    .title, .content label, .content input, .content select, .content button {font-size:16px;}
+    .content input, .content select, .content button {height:50px;}
+    .content label {padding-bottom:5px;}
+    .content .field {margin-bottom:5px;}
+    .content .field.last {margin-bottom:0;}
+    .content select {width:100%;}
+    #selCardMonth {margin-bottom:10px;}
+}
+@media (max-width:420px) {
+    .title span {display:block;}
+}
+/* ios hack */
+@media screen and (max-device-width: 320px){body{-webkit-text-size-adjust:none}}
+@media screen and (max-device-width: 480px){body{-webkit-text-size-adjust:none}}
+@media only screen and (-webkit-min-device-pixel-ratio: 2){body{-webkit-text-size-adjust:none}}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){body{-webkit-text-size-adjust:none}}
+/* ======================================================================================= */

@@ -1,0 +1,321 @@
+"""City"" is a required value. Please enter the city.","""Ciudad"" es un valor necesario. Por favor introduzca la ciudad."
+"""Country"" is a required value. Please enter the country.","""País"" es un valor necesario. Por favor ingresar al país."
+"""Email Address"" is a required value. Please enter the email address.","""Correo Electrónico"" es un valor necesario. Por favor, introduzca la dirección de correo electrónico."
+"""Email Address"" is not a valid email address.","""Correo Electrónico"" no es una dirección válida de correo electrónico."
+"""First Name"" is a required value. Please enter the first name.","""Nombre"" es un valor necesario. Por favor ingrese el nombre."
+"""Last Name"" is a required value. Please enter the last name.","""Apellido"" es un valor necesario. Por favor, introduzca el apellido."
+"""Nickname"" is a required value. Please enter the nickname.","""Apodo"" es un valor requerido. Por favor introduce el apodo."
+"""Payment Method"" is a required value.","""Método De Pago"" es un valor necesario."
+"""Rating"" is a required value. Please select rating.","""Calificación"" es un valor requerido. Por favor, seleccione calificación."
+"""Review"" is a required value. Please enter review.","""Revisión"" es un valor requerido. Por favor introduce el revisión."
+"""Shipping Method"" is a required value.","""Método de envío"" es un valor necesario."
+"""State/Province"" is a required value. Please enter the state/province.","""Estado/Provincia"" es un valor necesario. Por favor introduce el estado/provincia."
+"""Street Address"" is a required value. Please enter the street address.","""Dirección"" es un valor necesario. Por favor, introduzca la dirección de calle."
+"""Telephone"" is a required value. Please enter the telephone.","""Teléfono"" es un valor necesario. Por favor introduce el teléfono."
+"""Zip/Postal Code"" is a required value. Please enter the zip/postal code.","""Zip/Código Postal"" es un valor necesario. Por favor introduce el zip/código postal."
+"%s offers excellent, comprehensive customer service every step of the way. Before you order, make real time inquiries through use of our live chat. Once you've made a purchase, our customer service representatives are always on-hand to answer questions through our live chat. Shop with confidence and save with %s!","% Ofrece un excelente servicio integral al cliente en cada paso del camino. Antes de la solicitud, hacer consultas en tiempo real a través del uso de nuestro chat en vivo. Una vez que hayas realizado una compra, nuestros representantes de servicio al cliente están siempre a mano para responder preguntas a través de nuestro chat en vivo. Compre con confianza y ahorra con %!"
+"<a onclick=""history.go(-1); return false;"" href=""#"">Go back</a> to the previous page.","<a onclick=""history.go(-1); return false;"" href=""#"">Volver</a> a la página anterior."
+A variety of expedited shipping methods mean there is a convenient delivery option for every budget.,Una variedad de métodos de envío acelerado significa que hay una opción de entrega conveniente para todos los presupuestos.
+About Us,Quiénes Somos
+Account Dashboard,Cuenta Dashboard
+Account Information,Información De La Cuenta
+Add New Address,Añadir Nueva Dirección
+Add to Cart,Añadir A La Cesta
+Add to Compare,Añadir para comparar
+Add to Wishlist,Agregar a la lista
+Additional Address,Dirección Adicional
+Address Book,Libreta De Direcciones
+All Products,Todos Los Productos
+Apply Coupon,Aplicar Cupón
+Are you sure you want to delete this address?,Está seguro que desea eliminar esta dirección?
+Availability,Disponibilidad
+Back,Espalda
+Back to Main Product Info,Volver A La Información Del Producto Principal
+Back to My Orders,Volver A Mi Órdenes
+Bad,Malo
+Bestsellers,Los Más Vendidos
+Billing Address,Dirección De Facturación
+Billing Information,Información De Facturación
+"By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.","Al crear una cuenta en nuestra tienda, usted será capaz de moverse a través del proceso de compra más rápidamente, almacenar varias direcciones de envío, ver y rastrear sus pedidos en su cuenta y más."
+Cancel,cancelar
+Cancel Coupon,Cancelar Cupón
+Cart Subtotal,Subtotal Del carrito
+Categories,Categorías
+Categories Sitemap,Categorías Mapa del Sitio
+Category,Categoría
+Change Billing Address,Cambiar La Dirección De Facturación
+Change Password,Cambiar Contraseña
+Change Shipping Address,Cambiar La Dirección De Envío
+Checkout,Caja
+Checkout Result,Resultado Checkout
+City,Ciudad
+Class,Clase
+Clear All,Borrar Todo
+Clear Shopping Cart,Compras Clear
+"Click <a href=""%s"">here</a> to continue shopping.","Clic <a href=""%s"">here</a> para seguir comprando."
+Color,Color
+Company,Empresa
+Company Info,Información De La Compañía
+Confirm New Password,Confirmar Nueva Contraseña
+Confirm Password,Confirme Su Contraseña
+Contact Information,Información De Contacto
+Contact Us,Contáctenos
+Continue Shopping,Continuar Compras
+Convenient & Friendly Customer Service,Conveniente y amistoso servicio al cliente
+Country,País
+Coupon (<span>%s</span>),Cupón (<span>%s</span>)
+"Coupon code ""%s"" is not valid.","Código de descuento ""%s"" no es válido."
+"Coupon code ""%s"" was applied.","Código de descuento ""%s"" se aplicó."
+Coupon code was canceled.,Código de descuento fue cancelado.
+Coupon Codes,Los Códigos De Cupones
+Create Account,Crear Una Cuenta
+Create an Account,Crear Una Cuenta
+Create New Customer Account,Crear Nueva Cuenta De Cliente
+Current Password,Contraseña Actual
+Currently Shopping by,Actualmente De Compras Por
+Customer Login,Acceso Clientes
+Customer Reviews,Opiniones De Los Usuarios
+Customer Service,Servicio Al Cliente
+Date,Fecha
+Date Added: New to Old,Fecha Alta: Lo Más Nuevo
+Date Added: Old to New,Fecha Alta: Viejo A Nuevo
+Default,Defecto
+Default Addresses,Direcciones Por Defecto
+Default Billing Address,Por Defecto La Dirección De Facturación
+Default Shipping Address,Por Defecto La Dirección De Envío
+Delete Address,Eliminar Dirección
+Delivery,entrega
+Description,Descripción
+Details,Detalles
+Discount,Descuento
+Easy & Safe Online Shopping,Fácil y Seguro Compras en línea
+Edit,Editar
+Edit Address,Editar dirección
+Email Address,Dirección de correo electrónico
+Enter your coupon code if you have one.,Ingrese su código de cupón si usted tiene uno.
+"Every %s product undergoes an extensive testing and quality control procedure, ensuring each and every item purchased meets global quality standards. %s offers only the highest quality products, allowing customers to shop with confidence.","Cada producto se somete a un %s extensas pruebas y procedimiento de control de calidad, garantizando todos y cada producto comprado cumple con los estándares mundiales de calidad. %s Sólo ofrece productos de alta calidad, permitiendo a los clientes realizar sus compras con confianza."
+Failure,fracaso
+Faq,Faq
+Fast Delivery Around The Globe,Entrega rápida alrededor de The Globe
+Fax,Fax
+Featured,Destacados
+Finish,terminar
+First Name,Nombre
+Follow these links to get you back on track!,Siga estos enlaces para ayudarle a volver a la pista!
+Forgot Your Password?,Has olvidado tu contraseña?
+From your My Account Dashboard you have the ability to view a snapshot of your recent account activity and update your account information. Select a link below to view or edit information.,Desde mi panel de tu cuenta tienes la posibilidad de ver una instantánea de su actividad reciente de la cuenta y actualizar su información de cuenta. Seleccione el enlace de abajo para ver o editar información.
+Gender,Género
+General Subscription,Subscription
+Good,Bueno
+Gorgeous,Maravilloso
+Grand Total,Gran Total
+Grid,Cuadrícula
+"Have no fear, help is near! There are many ways you can get back on track with Our Store.","No temas, la ayuda está cerca! Hay muchas maneras que usted puede volver a la pista con nuestra tienda."
+"Hello, %s!","Hola, %s!"
+High Quality With Global Standards,Alta calidad con estándares globales
+Home,Casa
+"If you clicked on a link to get here, the link is outdated.","Si ha hecho clic en un enlace para llegar hasta aquí, el enlace no está actualizado."
+"If you have an account with us, please log in.","Si usted tiene una cuenta con nosotros, por favor iniciar sesión"
+"If you typed the URL directly, please make sure the spelling is correct.","Si escribió la dirección URL directamente, por favor, asegúrese de que la ortografía es la correcta."
+In stock,En existencia
+Information,información
+Invalid login or password.,Invalid usuario o contraseña.
+Item(s),Artículo(s)
+Items <span>%s</span> to <span>%s</span> of <span>%s</span> total,Artículos <span>%s</span> a <span>%s</span> de <span>%s</span> total
+JavaScript seem to be disabled in your browser.,JavaScript parece estar deshabilitado en su navegador.
+Last Name,Apellido
+List,Lista
+Log In,Entrar
+Log Out,Finalizar La Sesión
+Login,Login
+Login or Create an Account,Ingresar o Crear una cuenta
+Manage Addresses,Administrar Direcciones
+Material,Material
+More Views,Más Vistas
+My Account,Mi Cuenta
+My Cart,Mi Carrito
+My Cart (<span>%s</span> Items),Mi Carrito (<span>%s</span> Artículos)
+My Dashboard,Mi Panel
+My Orders,Mis Pedidos
+My Product Reviews,Mis Opiniones Del Producto
+My Recent Reviews,Mis Comentarios Recientes
+Name,nombre
+Name: A to Z,Nombre: A a la Z
+Name: Z to A,Nombre: Z a la A
+New Address,Nueva Dirección
+New Arrivals,Nuevas Adquisiciones
+New Customers,Nuevos Clientes
+New Password,Nueva Contraseña
+New Products,Nuevos Productos
+News,Noticias
+Newsletter Subscriptions,Subscripiciones
+Newsletters,Boletines
+Next,Próximo
+Nickname,Apodo
+Not Available At This Time,No Disponible En Este Momento
+Num,Num
+Order #,Ordene #
+Order #%s - %s,Ordene #%s - %s
+Order Date,Orden Fecha
+Order Information,Información De Pedido
+Order Items,Items
+Order Review,Revisar Pedido
+Order Status,Pedido
+Order Total,Total Del Pedido
+Ordered: High to Low,Ordenado: De Mayor A Menor
+Ordered: Low to High,Ordenado: De menor A Mayor
+Ordering,Orden
+Origin,Origen
+Out of Stock,Fuera de Stock
+Page,Página
+Page Not Found,Página No Encontrada
+Password,Contraseña
+Paying,Pago
+Payment & Shipping,Pago y Envío
+Payment Method,Forma De Pago
+Pending,Pendiente
+Place Order,Colocar Orden
+Please make sure your passwords match.,"Por favor, asegúrese de que sus contraseñas coinciden."
+Please Select,Seleccione
+Please select country,Por favor seleccione el país
+"Please select region, state or province","Por favor, seleccione región, estado o provincia"
+Please specify the product's required option(s).,Por favor especifique el producto's Opción Deseada(s).
+Poor,Pobre
+Popular Search,Lo Más Buscado
+Previous,Anterior
+Price,Precio
+Price: High to Low,Precio: De Mayor A Menor
+Price: Low to High,Precio: De Menor A Mayor
+Privacy & Security,Privacidad Y Seguridad
+Proceed to Checkout,Proceda A La Comprobación
+Processing,tratamiento
+Product Name,Nombre Del Producto
+Product Reviews,Opiniones Del Producto
+Products,Productos
+Products Sitemap,Productos Mapa Del Sitio
+Qty,Cantidad
+Quick Overview,Descripción Rápida
+Rating,Clasificación
+Recent Orders,Pedidos Recientes
+Recent Viewed,Recent Viewed
+Registered Customers,Clientes Registrados
+Regular,Regular
+Regular Price,Precio Regular
+Related,Relacionado
+Remove item,Remove Item
+Remove This Item,Quitar Este Artículo
+Required Fields,Campos Obligatorios
+Reset,Reajustar
+Returns Policy,Política De Devoluciones
+Review,Revisión
+Reviews,Comentarios
+Save,Ahorrar
+Save in address book,Guardar En La Agenda
+Save Off,Guardar Off
+Search,Buscar
+Search entire store here...,Buscar en toda la tienda aquí ...
+"Search results for: ""%s""","Resultados de la búsqueda: ""%s"""
+Select a billing address from your address book or enter a new address.,Seleccione una dirección de facturación de su libreta de direcciones o introduzca una nueva dirección.
+Select a shipping address from your address book or enter a new address.,Seleccione una dirección de envío de su libreta de direcciones o introduzca una nueva dirección.
+Select Your Currency,Seleccione su moneda
+Series,Serie
+Ship To,Enviamos
+Ship to different address,Envíe a la dirección diferente
+Ship to this address,Enviar a esta dirección
+Shipping & Delivery,Envío Y Entrega
+Shipping & Handling,Gastos De Envío Y Manipulación
+Shipping Address,Dirección De Envío
+Shipping Information,Información Del Envío
+Shipping Method,Método De Envío
+Shop By,Compre Por
+Shop With Confidence & Satisfaction Guaranteed,Compra con Confianza & Satisfacción Garantizada
+Shopping Cart,Compras
+Shopping cart have been updated success.,Cesta De La Compra Se Han Actualizado Éxito.
+Shopping Cart is Empty,Carrito De Compras Está Vacío
+"Shopping on %s is safe and secure - guaranteed! %s cares about your complete satisfaction. We offer a comprehensive return policy on all items, allowing you to shop with confidence.","Tiendas en %s es seguro y seguro - garantizado! %s se preocupa por su satisfacción. Ofrecemos una política de devolución completa de todos los artículos, lo que le permite comprar con confianza."
+Shopping Options,Opciones De Compra
+Show,Mostrar
+Sign Up for Newsletter,Registrarse Para El Boletín
+Site Map,Mapa Del Sitio
+Size,tamaño
+Size Chart,Carta Del Tamaño
+Sort By,Ordenado Por
+Spec,Especulación
+Special Price,Precio Especial
+Specials,Especiales
+State/Province,Estado/Provincia
+Status,Estado
+Store Home,Home Store
+Street Address,Dirección
+Submit,Presentar
+Submit Review,Enviar Opinión
+Subtotal,Total Parcial
+Success,éxito
+Telephone,Teléfono
+Thank you for registering with Our Store.,Gracias por registrarse en nuestra tienda.
+The account information has been saved.,La información de su cuenta ha sido guardado.
+The address has been saved.,La dirección se ha guardado.
+The minimum password length is 6.,La longitud mínima de la contraseña es de 6.
+"The page you requested was not found, and we have a fine guess why.","La página solicitada no fue encontrada, y tenemos una suposición muy bien por qué."
+The review has been saved.,La Revisión Se Ha Guardado.
+The subscription has been saved.,La suscripción ha sido guardado.
+There are currently no news.,No tenemos noticias.
+There are no products matching the selection.,No hay productos que concuerden con la selección.
+There are no sitemap matching the selection.,No hay mapa que concuerden con la selección.
+"There is <a href=""%s"">%s item(s)</a> in your cart.","Hay <a href=""%s"">%s artículo(s)</a> en su cesta."
+There is already an account with this email address.,Ya existe una cuenta con esta dirección de correo electrónico.
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%s"">click here</a> to get your password and access your account.","Ya existe una cuenta con esta dirección de correo electrónico. Si está seguro de que es su dirección de correo electrónico, <a href=""%s"">haga clic aquí</a> para obtener su contraseña y acceder a su cuenta."
+There was a security error.,Hubo un error de seguridad.
+This good was added to your shopping cart.,Esta mercancía fue añadido a su carrito de compras.
+Unit Price,Precio Unitario
+Update Shopping Cart,Actualización De Compras
+Use as My Default Billing Address,Usar como mi dirección de facturación predeterminada
+Use as My Default Shipping Address,Usar como mi dirección de envío predeterminada
+Use the search bar at the top of the page to search for your products.,Utilice la barra de búsqueda en la parte superior de la página para buscar sus productos.
+View All,Ver Todos
+View as,Ver Como
+View Order,Ver Pedido
+Viewed: High to Low,Visto: Mayor A Menor
+Viewed: Low to High,Visto: Menor A Mayor
+What can you do?,Qué se puede hacer?
+"With a wide variety of payment options, %s offers convenience to customers worldwide. Purchasing options include major credit cards, debit cards, wire transfer, Western Union.","Con una amplia variedad de opciones de pago, %s ofrece comodidad a los clientes en todo el mundo. Opciones de compra incluyen las principales tarjetas de crédito, tarjetas de débito, transferencia bancaria, Western Union."
+Write Your Own Review,Escriba Su Propia Opinión
+Year,Año
+You are currently not subscribed to any newsletter.,Actualmente no estás suscrito a ningún boletín.
+You are currently subscribed.,Actualmente usted está suscrito.
+You are now logged out,Ahora está desconectado
+You have logged out and will be redirected to our homepage in 5 seconds.,Ha cerrado la sesión y será redirigido a nuestra página de inicio en 5 segundos.
+You have no additional address entries in your address book.,No tiene entradas de direcciones adicionales de su libreta de direcciones.
+You have no items in your shopping cart.,No tiene artículos en su carrito de compras.
+You have placed no orders.,Usted ha puesto ninguna orden.
+You have submitted no reviews.,Usted Ha Presentado Ningun Comentario.
+You may also be interested in the following product(s),Usted también puede estar interesado en el siguiente producto(s)
+You must have JavaScript enabled in your browser to utilize the functionality of this website.,Youmust ha habilitado JavaScript en su navegador para utilizar la funcionalidad de este sitio web.
+You will be redirected to Credit Card in a few seconds.,Usted será redirigido a la tarjeta de crédito en unos pocos segundos.
+You will be redirected to Paypal in a few seconds.,Usted será redirigido a Paypal en pocos segundos.
+Zip/Postal Code,Zip/Código Postal
+Regular,Regular
+All Category,Toda la Categoría
+Payment Methods,Formas de pago
+Help,Ayudar
+Currency,Moneda
+My Cart (<span>%s</span>) Items,Mi Carrito (<span>%s</span>) Artículos
+My Cart <span>%s</span> Items,Mi Carrito <span>%s</span> Artículos
+My Cart <span>%s</span>,Mi Carrito <span>%s</span>
+My Cart <span>%s Items</span>,Mi Carrito <span>%s Artículos</span>
+Checkout Process,Caja Proceso
+By <span>%s</span>,Por <span>%s</span>
+Write a review,Escribir un comentario
+Model,Modelo
+Thank you for your order. The order confirm email will send within 24 hours!,Gracias por su orden. ¡El correo electrónico de confirmación de pedido se enviará en 24 horas!
+"Sorry, your order didn't go through because of unauthorized card. Please make an order with different card.","Lo sentimos, su pedido no se procesó debido a una tarjeta no autorizada. Por favor haz un pedido con una tarjeta diferente."
+Credit Card Payment,Pago con tarjeta de crédito
+Order Info,Información del pedido
+Order Number,Número de orden
+Order Amount,Total de la orden
+Card Number,Número de tarjeta
+Expiration,Vencimiento
+Month,Mes
+Pay,Paga
+Notes,Notas
+"You are now connected to a secure payment site with certificate issued by VeriSign, Your payment details will be securely transmitted to the Bank for transaction authorization in full accordance with PCI standards.","Ahora está conectado a un sitio de pago seguro con un certificado emitido por VeriSign. Sus detalles de pago se transmitirán de forma segura al Banco para la autorización de transacciones, de acuerdo con los estándares PCI."

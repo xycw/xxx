@@ -1,0 +1,19 @@
+/* Clears ================================================================================ */
+.clearer {display:block; clear:both; font-size:0; line-height:0; height:0; overflow:hidden;}
+.header-container,
+.header-container .top-container,
+.header,
+.header .quick-access,
+#nav,
+.main,
+.col2-set,
+.col3-set,
+.col4-set,
+.footer,
+.footer-container .bottom-container,
+.page-title,
+.pager,
+.form-list li,
+.form-list .field,
+.buttons-set {zoom:1;}
+/* ======================================================================================= */

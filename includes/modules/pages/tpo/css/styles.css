@@ -1,0 +1,146 @@
+/* Reset ================================================================================= */
+* {margin:0;padding:0;}
+body {background:#fff;color:#212121;font:14px/1.5 Arial,Helvetica,sans-serif;text-align:left;}
+img {border:0;vertical-align:top;}
+a {color:#1F4691;text-decoration:none;}
+a:hover {color:#E42832;text-decoration:none;}
+:focus {outline:0;}
+
+/* Headings */
+h1 {font-size:20px; font-weight:normal; line-height:1.15;}
+h2 {font-size:18px; font-weight:normal; line-height:1.25;}
+h3 {font-size:16px; font-weight:normal; line-height:1.25;}
+h4 {font-size:14px; font-weight:bold;}
+h5 {font-size:12px; font-weight:bold;}
+h6 {font-size:11px; font-weight:bold;}
+
+/* Forms */
+form {display:inline;}
+fieldset {border:0;}
+legend {display:none;}
+input,
+select,
+textarea,
+button {color:#333333;font:14px/1.5 Arial,Helvetica,sans-serif;vertical-align:middle;}
+input,
+select,
+textarea {background-color:transparent;background-image:none;border:none;outline:0 none;}
+input,
+textarea {padding:4px;}
+select {padding:3px;}
+textarea {overflow:auto;}
+button {cursor:pointer;font-size:14px;padding:5px 10px;border:none;}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {-webkit-appearance:none!important;margin:0;}
+input[type="number"]{-moz-appearance:textfield;}
+
+/* Table */
+table {border:0;empty-cells:show;font-size:100%;}
+
+/* Content */
+strong {font-weight:bold;}
+address {font-style:normal;}
+cite {font-style:normal;}
+q, blockquote {quotes:none;}
+q:before, q:after {content:'';}
+small, big {font-size:1em;}
+sup {font-size:1em;vertical-align:top;}
+
+/* Lists */
+ul, ol {list-style:none;}
+
+/* Tools */
+.hidden {border:0!important; display:block!important;font-size:0!important;height:0!important;line-height:0!important;margin:0!important;overflow:hidden!important;padding:0!important;width:0!important;}
+.nobr {white-space:nowrap!important;}
+.wrap {white-space:normal!important;}
+.a-left {text-align:left!important;}
+.a-center {text-align:center!important;}
+.a-right {text-align:right!important;}
+.v-top {vertical-align:top;}
+.v-middle {vertical-align:middle;}
+.f-left,
+.left {float:left!important;}
+.f-right,
+.right {float:right!important;}
+.clearfix:after {content:'\20';display:block;height:0;clear:both;}
+.clearfix {zoom:1;}
+/* ======================================================================================= */
+
+
+/* Custom ================================================================================ */
+.header {padding:20px 15px 10px 15px;color:#333;}
+.header h1 {font-size:35px;}
+.wrapper-payment {max-width:1600px;margin:0 auto;}
+.page {padding:15px;overflow:hidden;}
+.payment-l {float:left;width:58%;border-right:1px solid #ccc;padding-right:7%;font-size:16px;}
+.payment-r {float:right;width:30%;padding-top:30px;font-size:16px;}
+.border-box {border:1px solid #ccc;padding:20px;border-radius:4px;}
+.border-box img {max-width:100%;display:block;margin:0 auto;}
+.border-box .title {font-weight:bold;text-transform:uppercase;padding-bottom:10px;border-bottom:1px solid #ccc;}
+.border-box .content {margin:15px 0;}
+.border-box .content .std {padding:15px 30px 30px;}
+.payment-r .border-box .content {border-bottom:1px solid #ccc;}
+.payment-l .border-box .order-info {border-bottom:1px solid #ccc;padding-bottom:15px;}
+.payment-l .border-box .order-info li {padding: 5px 0; text-align: right;}
+.payment-l .border-box .order-info li span {float: left;}
+
+/* Form */
+.paybox {padding:20px;}
+.paybox .img-card {margin:10px 0 30px 0;}
+.paybox .payform li.field-card,
+.paybox .payform li.field-wrapper .field {border:1px solid #E4E4E4;margin-bottom:10px;position:relative;}
+.paybox .payform li.field-card {padding:15px;height:30px;}
+.paybox .payform li.field-wrapper {overflow: hidden;}
+.paybox .payform li.field-wrapper .field {width:calc(50% - 10px);height:62px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.paybox .payform li label {position:absolute;left:0;top:10px;width:100%;text-indent:15px;transition:all .2s;color:#B5B5B5;line-height:40px;font-size:16px;height:50px;z-index:2;bottom:8px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;transform-origin:0 50%;cursor:text;transition-timing-function:cubic-bezier(0.165, 0.84, 0.44, 1);}
+.paybox .payform li label.focused {transform:scale(0.75) translateY(-15px) translateX(5px);cursor:default;color:#46c3e0;}
+.paybox .payform li.field-wrapper .field label {background:#fff;}
+.paybox .payform li.field-wrapper .field label.focused {background:transparent;}
+.paybox .payform li .brand {position:absolute;top:11px;right:22px;display:block;margin-top:5px;width:32px;height:32px;background-repeat:no-repeat;background-position:center center;background-size:100%;z-index:2;}
+.paybox .payform li .brand.brand-card {background-image:url(../images/vmj.png);}
+.paybox .payform li .brand.brand-calendar {background-image:url(../images/calendar.png);}
+.paybox .payform li .brand.brand-lock {background-image:url(../images/lock.png);}
+.paybox .payform li .input-box {position:absolute;height:30px;width:auto;left:11px;bottom:5px;right:73px;}
+.paybox .payform li input.input-text {z-index:1;color:#32325d;line-height:30px;font-size:16px;width:100%;height:30px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.paybox .payform li select {z-index:1;float:left;width:50%;padding:3px 0;border:none;box-shadow:none;color:#32325d;line-height:30px;font-size:16px;height:30px;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;}
+.payform #btnSubmit {line-height:53px;background-color:#46C3E0;color:#fff;margin:0 auto;text-align:center;height:63px;width:100%;display:block;text-transform:uppercase;font-size:20px;font-weight:bold;border-radius:4px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.payform #btnSubmit.disableBtn {background:#fff;border:1px solid #e4e4e4;color:#333;font-weight:normal;cursor:not-allowed;}
+.payform #btnSubmit.disableBtn img {width:50px;height:50px;display:inline-block;margin-right:10px;}
+
+/* Media */
+@media (max-width:970px) {
+    .header h1 {font-size:24px;}
+    .payment-l {padding:0;width:100%;border:0;clear:left;}
+    .payment-r {padding:0;width:100%;clear:right;margin-top:30px;}
+    .payment-r .border-box .content {border:0;}
+    .border-box {border:0;padding:0;border-radius:0;}
+    .border-box .title {border:0;padding-bottom:20px;}
+    .border-box .content {margin:0;}
+    .border-box .content .std {padding:0;line-height:2;}
+}
+@media (max-width:768px) {
+    .paybox {padding: 0;}
+    .paybox .payform li .brand {right: 10px; background-size: 80%;}
+    .paybox .payform li .input-box {right: 40px;}
+    .paybox .payform li input.input-text,
+    .paybox .payform li select {font-size: 14px;}
+    .paybox .field #selCardMonth {width: 45%;}
+    .paybox .field #selCardYear {width: 55%;}
+    #btnSubmit.disableBtn {font-size: 16px;}
+}
+@media (max-width:450px) {
+    .paybox .field #selCardMonth {width: 50%;}
+    .paybox .field #selCardYear {width: 50%;}
+    #borderDate {width: calc(65% - 5px);}
+    #borderCVV {width: calc(35% - 5px);}
+}
+@media (max-width:360px) {
+    #btnSubmit.disableBtn {font-size: 12px;}
+}
+
+/* ios hack */
+@media screen and (max-device-width: 320px){body{-webkit-text-size-adjust:none}}
+@media screen and (max-device-width: 480px){body{-webkit-text-size-adjust:none}}
+@media only screen and (-webkit-min-device-pixel-ratio: 2){body{-webkit-text-size-adjust:none}}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px){body{-webkit-text-size-adjust:none}}
+/* ======================================================================================= */
