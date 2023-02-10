@@ -39,7 +39,6 @@ if (isset($_SESSION['admin'])) {
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>欢迎来到商店后台管理系统</title>
-    <h1><?php echo href_link(FILENAME_CAPTCHA); ?></h1>
 <meta name="robot" content="noindex, nofollow" />
 <link rel="icon" href="favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
