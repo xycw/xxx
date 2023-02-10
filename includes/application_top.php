@@ -1,7 +1,7 @@
 <?php
-
 // 自定义配置文件
 require('includes/config.php');
+
 
 /**
  * 设置时区为东八区
@@ -34,12 +34,10 @@ $request_type = (((isset($_SERVER['HTTPS']) && (strtolower($_SERVER['HTTPS']) ==
 				||(isset($_SERVER['SCRIPT_URI']) && strtolower(substr($_SERVER['SCRIPT_URI'], 0, 6)) == 'https:')
 				||(isset($_SERVER["HTTP_SSLSESSIONID"]) && $_SERVER["HTTP_SSLSESSIONID"] != '')
 				||(isset($_SERVER['SERVER_PORT']) && $_SERVER['SERVER_PORT'] == '443')) ? 'SSL' : 'NONSSL';
-
 /**
  * 系统初始化
  */
 //引用页面名称常量
-
 require(DIR_FS_CATALOG_INCLUDES . 'filenames.php');
 //引用数据库表名称常量
 require(DIR_FS_CATALOG_INCLUDES . 'database_tables.php');
@@ -107,5 +105,5 @@ if (!isset($_SESSION['customer_http_referer'])) {
 }
 // 获取顾客的浏览器内容
 if (!isset($_SESSION['customer_http_user_agent'])) {
-	$_SESSION['customer_http_user_agent'] = $_SERVER['HTTP_USER_AGENT'];
+	$_SESSION['customer_http_user_agent'] = isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '';
 }

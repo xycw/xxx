@@ -14,17 +14,6 @@
 		</li>
 	<?php } ?>
 	</ul>
-<script type="text/javascript"><!--
-$("input[name='shipping_method']").click(function(){
-	var shippingMethodJSON = <?php echo json_encode($shippingMethodJSON); ?>;
-	$('#shipping_method_fee').html(shippingMethodJSON[$(this).val()].fee);
-	$('#grand_total').html(shippingMethodJSON[$(this).val()].total);
-	$('#order_review_shipping_method_fee').html(shippingMethodJSON[$(this).val()].fee);
-	$('#order_review_shipping_method_insurance_fee').html(shippingMethodJSON[$(this).val()].insurance_fee);
-	$('#order_review_grand_total').html(shippingMethodJSON[$(this).val()].total);
-	
-});
-//--></script>
 <?php } else { ?>
 	<p class="error-msg"><?php echo __('Not Available At This Time'); ?></p>
 <?php } ?>

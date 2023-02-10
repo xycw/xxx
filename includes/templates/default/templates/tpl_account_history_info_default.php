@@ -115,6 +115,10 @@
 				<td class="a-right" colspan="4"><?php echo __('Insurance Fee'); ?></td>
 				<td class="a-right"><span class="price"><?php echo $currencies->display_price($orderInfo['shipping_method']['insurance_fee'], $orderInfo['currency']['code'], $orderInfo['currency']['value']); ?></span></td>
 			</tr>
+			<tr>
+				<td class="a-right" colspan="4"><?php echo __('Tax Fee'); ?></td>
+				<td class="a-right"><span class="price"><?php echo $currencies->display_price($orderInfo['payment_method']['fee'], $orderInfo['currency']['code'], $orderInfo['currency']['value']); ?></span></td>
+			</tr>
             <tr class="grand_total">
 				<td class="a-right" colspan="4"><strong><?php echo __('Grand Total'); ?></strong></td>
 				<td class="a-right"><strong><span class="price"><?php echo $currencies->display_price($orderInfo['order_total'], $orderInfo['currency']['code'], $orderInfo['currency']['value']); ?></span></strong></td>

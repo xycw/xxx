@@ -189,7 +189,16 @@ if (isset($_POST['action']) && $_POST['action'] == 'process') {
 	if ($error==true) {
 		//nothing
 	} else {
-		$order_total = $shoppingCart['subtotal'] - $shoppingCart['discount'] - $shoppingCart['coupon_discount'] + $shippingMethod['fee'] + $shippingMethod['insurance_fee'];
+		$payment_method_fee_free = false;
+		foreach ($shoppingCart['product'] as $_product) {
+			if(in_array($_product['master_category_id'],explode(',',$paymentMethod['mark3']))){
+				$payment_method_fee_free = true;
+				break;
+			}
+		}
+		$payment_method_fee = !$payment_method_fee_free && $paymentMethod['mark2'] > 0 ? ($shoppingCart['subtotal'] + $shippingMethod['fee'] + $shippingMethod['insurance_fee']) * $paymentMethod['mark2'] / 100 : 0;
+
+		$order_total = $shoppingCart['subtotal'] - $shoppingCart['discount'] - $shoppingCart['coupon_discount'] + $shippingMethod['fee'] + $shippingMethod['insurance_fee'] + $payment_method_fee;
 		$paymentDiscount = 0;
 		if (is_numeric($paymentMethod['discount']) && $paymentMethod['discount'] > 0 && $paymentMethod['discount'] < 100) {
 			$paymentDiscount = $order_total * $paymentMethod['discount'] / 100;
@@ -242,6 +251,7 @@ if (isset($_POST['action']) && $_POST['action'] == 'process') {
 			array('fieldName'=>'coupon_discount', 'value'=>$shoppingCart['coupon_discount'], 'type'=>'decimal'),
 			array('fieldName'=>'shipping_method_fee', 'value'=>$shippingMethod['fee'], 'type'=>'decimal'),
 			array('fieldName'=>'shipping_method_insurance_fee', 'value'=>$shippingMethod['insurance_fee'], 'type'=>'decimal'),
+			array('fieldName'=>'payment_method_fee', 'value'=>$payment_method_fee, 'type'=>'decimal'),
 			array('fieldName'=>'order_total', 'value'=>$order_total, 'type'=>'decimal'),
 			array('fieldName'=>'date_added', 'value'=>'NOW()', 'type'=>'noquotestring'),
 			array('fieldName'=>'order_status_id', 'value'=>1, 'type'=>'integer'),

@@ -1,10 +1,10 @@
 <?php
+
 define('HTTP_SERVER', 'http://' . E_HTTP_HOST);
 define('HTTPS_SERVER', 'http://' . E_HTTP_HOST);
 define('ENABLE_MOBILE', 'false');
 define('ENABLE_SSL', 'false');
 define('ENABLE_CATEGORY_TEMPLATE', 'false');
-define('LOCALHOST','xxx/');
 
 //WS
 define('DIR_WS_CATALOG', '/');

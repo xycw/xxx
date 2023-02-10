@@ -37,8 +37,8 @@ if (true == $_isMobile && is_dir(DIR_WS_CATALOG_TEMPLATES . $template_dir)) {
 }
 
 define('DIR_WS_TEMPLATE', DIR_WS_CATALOG_TEMPLATES . $template_dir . '/');
-define('DIR_WS_TEMPLATE_IMAGES', LOCALHOST.DIR_WS_TEMPLATE . 'images/');
-define('DIR_WS_TEMPLATE_CSS', LOCALHOST.DIR_WS_TEMPLATE . 'css/');
-define('DIR_WS_TEMPLATE_JS', LOCALHOST.DIR_WS_TEMPLATE . 'js/');
+define('DIR_WS_TEMPLATE_IMAGES', DIR_WS_TEMPLATE . 'images/');
+define('DIR_WS_TEMPLATE_CSS', DIR_WS_TEMPLATE . 'css/');
+define('DIR_WS_TEMPLATE_JS', DIR_WS_TEMPLATE . 'js/');
 
 header("Content-Type: text/html; charset=utf-8");

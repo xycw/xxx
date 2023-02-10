@@ -71,9 +71,9 @@ function get_customer_coupon($coupon_code, $product_qty, $product_amount)
 			break;
 		}
 		
-		if ($discount > $product_amount) {
+/*		if ($discount > $product_amount) {
 			$discount = 0;
-		}
+		}*/
 	}
 	
 	return $discount;

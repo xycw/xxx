@@ -34,17 +34,20 @@
 		</tr>
 		<?php } ?>
 		<tr class="shipping_method_fee">
-    		<td colspan="2" class="a-right"><?php echo __('Shipping & Handling'); ?></td>
-    		<td class="a-right"><span id="order_review_shipping_method_fee" class="price"><?php echo $currencies->display_price($shippingMethod['fee']); ?></span></td>
+			<td colspan="2" class="a-right"><?php echo __('Shipping & Handling'); ?></td>
+			<td class="a-right"><span id="order_review_shipping_method_fee" class="price"><?php echo $shippingPaymentMethodJSON[$shipping_method_default][$payment_method_default]['shipping_method_fee']; ?></span></td>
 		</tr>
 		<tr class="shipping_method_insurance_fee">
-    		<td colspan="2" class="a-right"><?php echo __('Insurance Fee'); ?></td>
-    		<td class="a-right"><span id="order_review_shipping_method_insurance_fee" class="price"><?php echo $currencies->display_price($shippingMethod['insurance_fee']); ?></span></td>
+			<td colspan="2" class="a-right"><?php echo __('Insurance Fee'); ?></td>
+			<td class="a-right"><span id="order_review_shipping_method_insurance_fee" class="price"><?php echo $shippingPaymentMethodJSON[$shipping_method_default][$payment_method_default]['shipping_method_insurance_fee']; ?></span></td>
 		</tr>
-    	<tr class="grand_total">
-    		<td colspan="2" class="a-right"><strong><?php echo __('Grand Total'); ?></strong></td>
-    		<?php $grand_total = $shoppingCart['subtotal'] - $shoppingCart['discount'] - $shoppingCart['coupon_discount'] + $shippingMethod['fee'] + $shippingMethod['insurance_fee'];?>
-    		<td class="a-right" ><strong><span id="order_review_grand_total" class="price"><?php echo $currencies->display_price($grand_total); ?></span></strong></td>
+		<tr>
+			<td colspan="2" class="a-right"><?php echo __('Tax Fee'); ?></td>
+			<td class="a-right"><span id="order_review_payment_method_fee" class="price"><?php echo $shippingPaymentMethodJSON[$shipping_method_default][$payment_method_default]['payment_method_fee']; ?></span></td>
+		</tr>
+		<tr class="grand_total">
+			<td colspan="2" class="a-right"><strong><?php echo __('Grand Total'); ?></strong></td>
+			<td class="a-right" ><strong><span id="order_review_grand_total" class="price"><?php echo $shippingPaymentMethodJSON[$shipping_method_default][$payment_method_default]['order_total']; ?></span></strong></td>
 		</tr>
 	</tfoot>
 	<tbody>

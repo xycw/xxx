@@ -75,7 +75,9 @@ function get_payment_method($payment_method_id)
 		    'description'       => $result->fields['description'],
 			'account'           => $result->fields['account'],
 			'discount'          => $result->fields['discount'],
-			'is_inside'         => $result->fields['is_inside']
+			'is_inside'         => $result->fields['is_inside'],
+			'mark2'             => $result->fields['mark2'],
+			'mark3'             => $result->fields['mark3']
 		);
 	}
 	
@@ -176,7 +178,8 @@ function get_order($order_id)
 				'account'     => $result->fields['payment_method_account'],
 				'billing'     => $result->fields['payment_method_billing'],
 				'name'        => $result->fields['payment_method_name'],
-				'description' => $result->fields['payment_method_description']
+				'description' => $result->fields['payment_method_description'],
+				'fee'         => $result->fields['payment_method_fee']
 			),
 			'shipping_method' => array(
 				'code'          => $result->fields['shipping_method_code'],
@@ -289,7 +292,7 @@ function send_confirm_mail($orderInfo, $orderProductInfo, $orderStatusId)
 		'currency_value'    => $orderInfo['currency']['value'],
 		'amount'            => number_format($orderInfo['order_total'] * $orderInfo['currency']['value'], '2', '.', ''),
 		'discount'          => number_format(($orderInfo['order_discount'] + $orderInfo['coupon']['discount']) * $orderInfo['currency']['value'], '2', '.', ''),
-		'fee'               => number_format($orderInfo['shipping_method']['fee'] * $orderInfo['currency']['value'], '2', '.', ''),
+		'fee'               => number_format(($orderInfo['shipping_method']['fee'] + $orderInfo['payment_method']['fee']) * $orderInfo['currency']['value'], '2', '.', ''),
 		'insurance'         => number_format($orderInfo['shipping_method']['insurance_fee'] * $orderInfo['currency']['value'], '2', '.', ''),
 		'billing_name'      => $orderInfo['billing']['firstname'] . ' ' . $orderInfo['billing']['lastname'],
 		'billing_country'   => $orderInfo['billing']['country'],

@@ -2,7 +2,6 @@
 /**
  * modules meta.php
  */
-
 switch ($current_page) {
 	case FILENAME_ACCOUNT:
 		$metaInfo['title'] = __('My Dashboard');

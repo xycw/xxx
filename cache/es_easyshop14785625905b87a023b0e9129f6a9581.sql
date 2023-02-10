@@ -1,1 +1,0 @@
-a:3:{i:0;a:2:{s:8:"filter_1";s:18:"Papaya espadrilles";s:5:"total";s:1:"2";}i:1;a:2:{s:8:"filter_1";s:29:"Tiger elasticated espadrilles";s:5:"total";s:1:"2";}i:2;a:2:{s:8:"filter_1";s:16:"Tiger pool mules";s:5:"total";s:1:"3";}}

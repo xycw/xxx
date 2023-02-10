@@ -36,7 +36,6 @@ class seo_url {
 	
 	public function href_link($main_page='index', $parameters='', $connection='NOSSL')
 	{
-
 		if ($connection == 'SSL' && ENABLE_SSL == 'true') {
 			$link = HTTPS_SERVER;
 	    } else {

@@ -1,5 +1,4 @@
 <?php
-
 if (!defined('DB_PREFIX')) define('DB_PREFIX', '');
 define('TABLE_ADDRESS', DB_PREFIX . 'address');
 //define('TABLE_CATEGORY', DB_PREFIX . 'category');
@@ -27,3 +26,5 @@ define('TABLE_POPULAR_SEARCH', DB_PREFIX . 'popular_search');
 //define('TABLE_PRODUCT_TO_CATEGORY', DB_PREFIX . 'product_to_category');
 define('TABLE_REGION', DB_PREFIX . 'region');
 define('TABLE_SHIPPING_METHOD', DB_PREFIX . 'shipping_method');
+define('TABLE_BLACKLIST_IP', DB_PREFIX . 'blacklist_ip');
+define('TABLE_BLACKLIST_IP_LOG', DB_PREFIX . 'blacklist_ip_log');

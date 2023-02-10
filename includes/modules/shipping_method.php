@@ -33,6 +33,7 @@ while (!$result->EOF) {
 	}
 
 	if ($is_default == 1) {
+		$shipping_method_default = $result->fields['shipping_method_id'];
 		$shippingMethod['fee'] = $fee;
 		$shippingMethod['insurance_fee'] = $insurance_fee;
 	}
@@ -42,13 +43,8 @@ while (!$result->EOF) {
 		'name'        => $result->fields['name'],
 		'description' => $result->fields['description'],
 		'fee'         => $fee,
+		'insurance_fee' => $insurance_fee,
 		'is_default'  => $is_default
-	);
-
-	$shippingMethodJSON[$result->fields['shipping_method_id']] = array(
-		'fee'           => $currencies->display_price($fee),
-		'insurance_fee' => $currencies->display_price($insurance_fee),
-		'total'         => $currencies->display_price($shoppingCart['subtotal'] - $shoppingCart['discount'] - $shoppingCart['coupon_discount'] + $fee + $insurance_fee),
 	);
 	$result->MoveNext();
 }

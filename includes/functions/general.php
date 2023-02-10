@@ -396,7 +396,7 @@ function get_all_get_params($exclude_array='')
 	if (is_array($_GET) && (sizeof($_GET) > 0)) {
 		reset($_GET);
 		while (list($key, $value) = each($_GET)) {
-			if ((strlen($value) > 0) && ($key != 'main_page') && (!in_array($key, $exclude_array))) {
+			if (!is_array($value) && (strlen($value) > 0) && ($key != 'main_page') && (!in_array($key, $exclude_array))) {
 				$get_url .= sanitize_string($key) . '=' . rawurlencode(stripslashes($value)). '&';
 			}
 		}
@@ -423,11 +423,8 @@ function redirect($url, $httpResponseCode='')
 
 function href_link($main_page='index', $parameters='', $connection='NOSSL')
 {
-
 	global $seo_url;
-
 	if (isset($seo_url) && is_a($seo_url, 'seo_url')) {
-
 		return $seo_url->href_link($main_page, $parameters, $connection);
 	}
 	if ($connection == 'SSL' && ENABLE_SSL == 'true') {
@@ -436,15 +433,12 @@ function href_link($main_page='index', $parameters='', $connection='NOSSL')
     	$link = HTTP_SERVER;
     }
 	$link .= DIR_WS_CATALOG;
-
+	
 	if (not_null($parameters)) {
-		$link .= ($main_page=='index' ? '?' : LOCALHOST.'index.php?main_page='. $main_page . '&') . output_string($parameters);
+		$link .= ($main_page=='index' ? '?' : 'index.php?main_page='. $main_page . '&') . output_string($parameters);
 	} else {
-		$link .= $main_page=='index' ? '' : LOCALHOST.'index.php?main_page='. $main_page;
-
+		$link .= $main_page=='index' ? '' : 'index.php?main_page='. $main_page;
 	}
-
-
 	// clean up the link before processing
     while (strstr($link, '&&')) $link = str_replace('&&', '&', $link);
     while (strstr($link, '&amp;&amp;')) $link = str_replace('&amp;&amp;', '&amp;', $link);
@@ -493,7 +487,7 @@ function get_ip_address()
 			$ip = getenv('REMOTE_ADDR');
 		}
 	}
-	return $ip;
+	return explode(',', $ip)[0];
 }
 
 function send_email($to_mail, $to_name, $from_mail, $from_name, $sendSubject, $sendBody)

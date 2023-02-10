@@ -73,7 +73,7 @@ if (count($subcategories) > 0) {
 		$sql = "SELECT category_id, name, image
 				FROM   " . TABLE_CATEGORY . "
 				WHERE  parent_id = :parent_id
-				AND    status = 1
+				AND    status = 1  
 				ORDER BY sort_order, name";
 		$sql = $db->bindVars($sql, ':parent_id', $_GET['cID'], 'integer');
 		$result = $db->Execute($sql, false, true, 86400);

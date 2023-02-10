@@ -130,7 +130,7 @@ $_GET['q'] = isset($_GET['q']) ? trim($_GET['q']) : '';
 $productListQuery = "SELECT p.product_id, p.name, p.short_description, p.image, p.price,
 					 p.specials_price, p.specials_expire_date, p.in_stock, p.filter_1
 					 FROM   " . TABLE_PRODUCT . " p
-					 WHERE  p.status = 1";
+					 WHERE  p.status = 1 " . (MAIN_PRODUCT_ONLY == 1 ? (IS_ZP == '1'? "":" AND p.main_sku=1 ") : '') ;
 
 if (not_null($_GET['q'])
 	&& parse_search_string(stripslashes($_GET['q']), $searchKeywords)) {

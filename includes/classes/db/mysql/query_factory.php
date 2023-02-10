@@ -85,15 +85,12 @@ var $link, $count_queries, $total_query_time;
 
 	function Execute($ef_sql, $ef_limit = false, $ef_cache = false, $ef_cachetime=0)
 	{
-        
 		global $cache;
 		if ($ef_limit) {
 			$ef_sql = $ef_sql . ' LIMIT ' . $ef_limit;
 		}
 		$this->ef_sql = $ef_sql;
-
 		if ($ef_cache && $cache->sql_cache_exists($ef_sql) && !$cache->sql_cache_is_expired($ef_sql, $ef_cachetime)) {
-
 			$obj = new queryFactoryResult;
 			$obj->cursor = 0;
 			$obj->is_cached = true;
@@ -110,7 +107,6 @@ var $link, $count_queries, $total_query_time;
 			}
 			return($obj);
 		} elseif ($ef_cache) {
-
 			$cache->sql_cache_expire_now($ef_sql);
 			$time_start = explode(' ', microtime());
 			$obj = new queryFactoryResult;
@@ -429,7 +425,7 @@ var $link, $count_queries, $total_query_time;
 
 class queryFactoryResult {
 
-    function __construct()
+	function queryFactoryResult()
 	{
 		$this->is_cached = false;
 	}
@@ -508,9 +504,8 @@ class queryFactoryResult {
 
 class queryFactoryMeta {
 
-    function __construct($ep_field, $ep_res)
+	function queryFactoryMeta($ep_field, $ep_res)
 	{
-
 		$this->type = @mysql_field_type($ep_res, $ep_field);
 		$this->max_length = @mysql_field_len($ep_res, $ep_field);
 	}

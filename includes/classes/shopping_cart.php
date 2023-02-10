@@ -24,6 +24,7 @@ class shopping_cart {
 			$this->_contents[$cartpID]['image']      = $product['image'];
 			$this->_contents[$cartpID]['qty']        = $qty;
 			$this->_contents[$cartpID]['price']      = $product['price'];
+			$this->_contents[$cartpID]['master_category_id'] = $product['master_category_id'];
 			if (is_array($attribute)) {
 				foreach ($attribute as $option_id => $option_value_id) {
 					$option = $this->_productAttributeArr[$option_id];
@@ -96,7 +97,7 @@ class shopping_cart {
 	
 	public function actionAddProduct()
 	{
-		global $message_stack;
+		global $message_stack,$currencies;
 		if (isset($_POST['pID']) && validate_product($_POST['pID'])) {
 			$this->_productAttributeArr = get_product_attribute($_POST['pID']);
 			if (isset($_POST['qty']) && is_array($_POST['qty'])
@@ -114,7 +115,7 @@ class shopping_cart {
 							|| !isset($option['value'][$option_value_id]) ) {
 							continue;
 						}
-						$attribute = $_POST['attribute'];
+						$attribute = isset($_POST['attribute']) ? $_POST['attribute'] : array();
 						$attribute[$option_id] = $option_value_id;
 						$cartpID = upid($_POST['pID'], $attribute);
 						$new_qty = $this->adjustQty($qty);
@@ -128,6 +129,10 @@ class shopping_cart {
 				}
 			} elseif (not_null($this->_productAttributeArr)
 				&& (isset($_POST['attribute']) && !$this->validateProductAttribute($_POST['attribute']))) {
+				if(isset($_GET['method']) && $_GET['method'] == 'ajax'){
+					echo json_encode(array('status' => 0,'msg' => 'Please specify the product\'s required option(s).'));
+					exit();
+				}
 				$message_stack->add_session('product', __('Please specify the product\'s required option(s).'), 'note');
 				redirect(href_link(FILENAME_PRODUCT, 'pID=' . $_POST['pID']));
 			} else {
@@ -141,6 +146,56 @@ class shopping_cart {
 					$this->addCart($cartpID, $new_qty, $attribute);
 				}
 			}
+		}
+		if(isset($_GET['method']) && $_GET['method'] == 'ajax'){
+			$html = '<div class="header_window">
+					<div>';
+			foreach ($_SESSION['shopping_cart']->getProduct() as $cartID => $cartProduct) {
+				$html .= '<div class="block-content-1">
+						<table>
+							<tr>
+								<td>
+									<a href="javascript:;" class="product-image">
+										<img width="100px" height="100px" alt="' . $cartProduct['name'] . '" src="' . get_small_image($cartProduct['image'], SHOPPING_CART_IMAGE_WIDTH, SHOPPING_CART_IMAGE_HEIGHT) . '" />
+									</a>
+								</td>
+								<td style="padding: 0 10px; text-align: left">
+									<h2 class="product-name_x">
+										<a href="javascript:;">
+											' . $cartProduct['name'] . '
+										</a>
+									</h2>
+									<div class="price-total">
+										<span class="price"><span class="">' . $currencies->display_price($cartProduct['price']) . '</span></span>
+										<span class="qty">QTY:<span>' . $cartProduct['qty'] . '</span></span>
+									</div>
+								</td>
+								<td class="a-center">
+									<a class="btn-remove" title="' . __('Remove item') . '" href="' . href_link(FILENAME_SHOPPING_CART, 'action=remove_product&cartpID='.$cartID, 'SSL') . '">' . __('Remove item') . '</a>
+								</td>
+							</tr>
+						</table>
+					</div>';
+			}
+			$html .= '</div>
+				</div>';
+			if ($_SESSION['shopping_cart']->getItems() > 0) {
+				$html .= '
+				<div style="height:180px;"></div>
+				<div class="summary_actions">
+				<div class="summary">
+					<p class="subtotal"><span class="label">' . __('Cart Subtotal') . ':</span><span class="price">' . $currencies->display_price($_SESSION['shopping_cart']->getSubtotal()) . '</span></p>
+				</div>
+				<div class="actions">
+					<button onclick="setLocation(\'' . href_link(FILENAME_SHOPPING_CART, '', 'SSL') . '\');" class="button" title="' . __('view bag & checkout') . '" type="button"><span>' . __('view bag & checkout') . '</span></button>
+				</div>
+				</div>
+				';
+			} else {
+				$html .= '<p class="empty">' . __('You have no items in your shopping cart.') . '</p>';
+			}
+			echo json_encode(array('status' => 1,'data' => $html));
+			exit();
 		}
 		$message_stack->add_session('shopping_cart', __('This good was added to your shopping cart.'), 'success');
 		redirect(href_link(FILENAME_SHOPPING_CART, '', 'SSL'));

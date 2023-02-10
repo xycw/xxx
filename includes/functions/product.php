@@ -22,7 +22,7 @@ function get_product($product_id)
 	$sql = "SELECT product_id, sku, name, image,
 				   IF(specials_price AND DATEDIFF(IF(ISNULL(specials_expire_date),
 				   CURRENT_DATE(), specials_expire_date), CURRENT_DATE()) >= 0,
-				   specials_price, price) AS price
+				   specials_price, price) AS price, master_category_id
 			FROM   " . TABLE_PRODUCT . "
 			WHERE  product_id = :productID
 			LIMIT 1";
@@ -34,7 +34,8 @@ function get_product($product_id)
 			'sku' => $result->fields['sku'],
 			'name' => $result->fields['name'],
 			'image' => $result->fields['image'],
-			'price' => $result->fields['price']
+			'price' => $result->fields['price'],
+			'master_category_id' => $result->fields['master_category_id']
 		);
 	}
 	
@@ -84,7 +85,7 @@ function get_product_color($sku)
 	$color = array();
 	$sku_array = explode("-", $sku);
 	if (count($sku_array) > 1) {
-		$sql = "SELECT product_id, image
+		$sql = "SELECT product_id, image, sku
 				FROM   " . TABLE_PRODUCT . "
 				WHERE  sku LIKE ':sku-%'
 				AND    in_stock = 1
@@ -95,7 +96,8 @@ function get_product_color($sku)
 		while (!$result->EOF) {
 			$color[] = array(
 				'product_id'   => $result->fields['product_id'],
-				'image'        => $result->fields['image']
+				'image'        => $result->fields['image'],
+				'sku'					 => $result->fields['sku']
 			);
 			$result->MoveNext();
 		}
@@ -460,6 +462,7 @@ function load_imageGD($file)
 {
 	// create an image of the given filetype
 	$file_ext = substr($file, strrpos($file, '.'));
+	$image = false;
 	switch (strtolower($file_ext)) {
 		case '.gif':
 		    if (!function_exists("imagecreatefromgif")) return false;

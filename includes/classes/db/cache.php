@@ -3,7 +3,6 @@ class cache {
 
 	function sql_cache_exists($ef_query)
 	{
-
 		global $db;
 		$ep_cache_name = $this->cache_generate_cache_name($ef_query);
 		switch (DB_CACHE_METHOD) {
@@ -171,7 +170,6 @@ class cache {
 
 	function cache_generate_cache_name($ef_query)
 	{
-
 		switch (DB_CACHE_METHOD) {
 			case 'file':
 				return 'es_' . DB_DATABASE . md5($ef_query);
@@ -190,6 +188,5 @@ class cache {
 				return true;
 				break;
 		}
-
 	}
 }

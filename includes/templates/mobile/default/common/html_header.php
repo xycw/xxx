@@ -31,6 +31,10 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<meta name="keywords" content="<?php echo $metaInfo['keywords']; ?>" />
 	<meta name="description" content="<?php echo $metaInfo['description']; ?>" />
+	<meta name="google-site-verification" content="<?php echo GOOGLE_DOMAIN_VERIFICATION; ?>"/>
+	<meta name="facebook-domain-verification" content="<?php echo FACEBOOK_DOMAIN_VERIFICATION; ?>" />
+	<meta name="trustpilot-one-time-domain-verification-id" content="<?php echo TIKTOK_DOMAIN_VERIFICATION; ?>" />
+	<meta name="domain-verification" content="<?php echo DOMAIN_VERIFICATION; ?>" />
 	<meta http-equiv="imagetoolbar" content="no" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
     <meta name="handheldfriendly" content="true">

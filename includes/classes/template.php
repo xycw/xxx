@@ -7,7 +7,6 @@ class template {
 
 	function get_template_part($page_directory, $template_part, $file_extension='.php')
 	{
-
 		$directory_array = array();
 		if ($dir = @dir($page_directory)) {
 			while ($file = $dir->read()) {
@@ -25,7 +24,6 @@ class template {
 
 	function get_template_dir($template_code, $current_template, $current_page, $template_dir, $debug=false)
 	{
-
 		if (substr($current_page, 0, 7) == 'account'
 			|| substr($current_page, 0, 7) == 'address') {
 			$current_page = 'account';

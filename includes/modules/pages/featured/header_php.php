@@ -52,7 +52,7 @@ if ($pageLimit>0) {
 		$sql = "SELECT product_id, name, image, price,
 					   specials_price, specials_expire_date, filter_1
 				FROM   " . TABLE_PRODUCT . "
-				WHERE  status = 1
+				WHERE  status = 1 " . (MAIN_PRODUCT_ONLY == 1 ? (IS_ZP == '1'? "":" AND main_sku=1 ") : '') . "
 				AND    in_stock = 1";
 		$result = $db->ExecuteRandomMulti($sql, $pageLimit);
 		$currentDay = date('Y-m-d');

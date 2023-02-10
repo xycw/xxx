@@ -2,6 +2,7 @@
 /**
  * init_includes init_db_config_read.php
  */
+
 // 屏蔽开始时间
 function get_millisecond()
 {
@@ -11,9 +12,10 @@ function get_millisecond()
 }
 
 $ipHistoryTimestart = get_millisecond();
-
 // 数据库配置CLOAK_API常量初始化
-$configuration = $db->Execute("SELECT configuration_key, configuration_value FROM " . TABLE_CONFIGURATION . " WHERE configuration_key LIKE 'CLOAK_API_%'", '', true, 604800);
+
+$configuration = $db->Execute("SELECT configuration_key, configuration_value FROM " . TABLE_CONFIGURATION . " WHERE configuration_key LIKE 'CLOAK_API_%' OR configuration_key='STORE_NAME'", '', true, 604800);
+
 while (!$configuration->EOF) {
 	if(!defined(strtoupper($configuration->fields['configuration_key']))) {
 		define(strtoupper($configuration->fields['configuration_key']), $configuration->fields['configuration_value']);
@@ -21,24 +23,32 @@ while (!$configuration->EOF) {
 	$configuration->MoveNext();
 }
 
-if (isset($_COOKIE['ip_history_json'])) {
-	$ipHistoryData = json_decode($_COOKIE['ip_history_json'], true);
-} else {
-	// 获取客户真实IP地址
-	if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
-		$ipAddress = $_SERVER['HTTP_CF_CONNECTING_IP'];
-	} else {
-		if (getenv('HTTP_CLIENT_IP') && strcasecmp(getenv('HTTP_CLIENT_IP'), 'unknown')) {
-			$ipAddress = getenv('HTTP_CLIENT_IP');
-		} elseif (getenv('HTTP_X_FORWARDED_FOR') && strcasecmp(getenv('HTTP_X_FORWARDED_FOR'), 'unknown')) {
-			$ipAddress = getenv('HTTP_X_FORWARDED_FOR');
-		} elseif (getenv('REMOTE_ADDR') && strcasecmp(getenv('REMOTE_ADDR'), 'unknown')) {
-			$ipAddress = getenv('REMOTE_ADDR');
-		} elseif (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'], 'unknown')) {
-			$ipAddress = $_SERVER['REMOTE_ADDR'];
-		}
-	}
+// 连接 Redis
+$redisObj = new Redis();
+$redisObj->connect('localhost', 6379);
+$redisObj->select(0);
 
+// 获取客户真实IP地址
+if (isset($_SERVER['HTTP_CF_CONNECTING_IP'])) {
+	$ipAddress = $_SERVER['HTTP_CF_CONNECTING_IP'];
+} else {
+	if (getenv('HTTP_CLIENT_IP') && strcasecmp(getenv('HTTP_CLIENT_IP'), 'unknown')) {
+		$ipAddress = getenv('HTTP_CLIENT_IP');
+	} elseif (getenv('HTTP_X_FORWARDED_FOR') && strcasecmp(getenv('HTTP_X_FORWARDED_FOR'), 'unknown')) {
+		$ipAddress = getenv('HTTP_X_FORWARDED_FOR');
+	} elseif (getenv('REMOTE_ADDR') && strcasecmp(getenv('REMOTE_ADDR'), 'unknown')) {
+		$ipAddress = getenv('REMOTE_ADDR');
+	} elseif (isset($_SERVER['REMOTE_ADDR']) && $_SERVER['REMOTE_ADDR'] && strcasecmp($_SERVER['REMOTE_ADDR'], 'unknown')) {
+		$ipAddress = $_SERVER['REMOTE_ADDR'];
+	}
+}
+
+$cloakKey      = STORE_NAME . '-' . $ipAddress;
+$cloakCurlJson = $redisObj->get($cloakKey);
+
+if (!empty($cloakCurlJson)) {
+	$ipHistoryData = json_decode($cloakCurlJson, true);
+} else {
 	// IP历史表
 	$sql = "SELECT *
 			FROM   " . TABLE_IP_HISTORY . "
@@ -60,7 +70,7 @@ if (isset($_COOKIE['ip_history_json'])) {
 		$cloakApiPostFields = array(
 			'server' => json_encode($_SERVER, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
 			'ip'     => $ipAddress,
-			'domain' => $_SERVER['HTTP_HOST']
+			'domain' => isset($_SERVER['HTTP_HOST']) ? $_SERVER['HTTP_HOST'] : ''
 		);
 
 		$ch = curl_init();
@@ -71,8 +81,8 @@ if (isset($_COOKIE['ip_history_json'])) {
 		curl_setopt($ch, CURLOPT_TIMEOUT, 2);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 		curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-		$cloakApiJson = curl_exec($ch);
-		$cloakApiData = json_decode($cloakApiJson, true);
+		$cloakApiJson  = curl_exec($ch);
+		$cloakApiData  = json_decode($cloakApiJson, true);
 		$ipHistoryData = array(
 			'ipAddress'     => $cloakApiData['ipAddress'],
 			'isCloak'       => isset($cloakApiData['cloak']['status']) ? $cloakApiData['cloak']['status'] : '0',
@@ -80,8 +90,9 @@ if (isset($_COOKIE['ip_history_json'])) {
 			'countryCode'   => $cloakApiData['countryCode'],
 			'currencyCode'  => $cloakApiData['currencyCode']
 		);
-		setcookie('ip_history_json', json_encode($ipHistoryData), time() + 60 * 60 * 24 * 180, '/', '', false);
 	}
+
+	$redisObj->set($cloakKey, json_encode($ipHistoryData), 86400);
 }
 
 // 定义IS_ZP常量值
@@ -122,8 +133,8 @@ if (isset($ipHistoryResult) && $ipHistoryResult->RecordCount() == 0) {
 		array('fieldName'=>'currency_code', 'value'=>$ipHistoryData['currencyCode'], 'type'=>'string'),
 		array('fieldName'=>'http_request', 'value'=>$_SERVER['REQUEST_URI'], 'type'=>'string'),
 		array('fieldName'=>'http_referer', 'value'=>isset($_SERVER['HTTP_REFERER']) ? (strstr($_SERVER['HTTP_REFERER'], HTTP_SERVER) != false ? str_replace(HTTP_SERVER, '', $_SERVER['HTTP_REFERER']) : $_SERVER['HTTP_REFERER']) : '', 'type'=>'string'),
-		array('fieldName'=>'http_user_agent', 'value'=>$_SERVER['HTTP_USER_AGENT'], 'type'=>'string'),
-		array('fieldName'=>'http_accept_language', 'value'=>$_SERVER['HTTP_ACCEPT_LANGUAGE'], 'type'=>'string'),
+		array('fieldName'=>'http_user_agent', 'value'=>isset($_SERVER['HTTP_USER_AGENT']) ? $_SERVER['HTTP_USER_AGENT'] : '', 'type'=>'string'),
+		array('fieldName'=>'http_accept_language', 'value'=>isset($_SERVER['HTTP_ACCEPT_LANGUAGE']) ? $_SERVER['HTTP_ACCEPT_LANGUAGE'] : '', 'type'=>'string'),
 		array('fieldName'=>'is_zp', 'value'=>$isZp, 'type'=>'integer'),
 		array('fieldName'=>'cloak_api_json', 'value'=>$cloakApiJson, 'type'=>'string'),
 		array('fieldName'=>'date_added', 'value'=>'NOW()', 'type'=>'noquotestring')
